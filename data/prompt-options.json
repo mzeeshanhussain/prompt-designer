@@ -1,0 +1,20 @@
+{
+    "roles": [
+      {
+        "label": "Email Writing Expert",
+        "help": "You are an expert in writing persuasive, high-conversion emails."
+      },
+      {
+        "label": "Cybersecurity Consultant",
+        "help": "You secure websites from threats and audit systems."
+      },
+      {
+        "label": "Career Coach",
+        "help": "You help people craft resumes, cover letters, and career goals."
+      }
+    ],
+    "input_formats": ["Text", "JSON", "CSV"],
+    "output_formats": ["Bullet List", "Paragraph", "Code Block", "Markdown Table"],
+    "styles": ["Friendly", "Formal", "Concise", "Detailed"]
+  }
+  
