@@ -1,20 +1,86 @@
 {
-    "roles": [
-      {
-        "label": "Email Writing Expert",
-        "help": "You are an expert in writing persuasive, high-conversion emails."
-      },
-      {
-        "label": "Cybersecurity Consultant",
-        "help": "You secure websites from threats and audit systems."
-      },
-      {
-        "label": "Career Coach",
-        "help": "You help people craft resumes, cover letters, and career goals."
-      }
-    ],
-    "input_formats": ["Text", "JSON", "CSV"],
-    "output_formats": ["Bullet List", "Paragraph", "Code Block", "Markdown Table"],
-    "styles": ["Friendly", "Formal", "Concise", "Detailed"]
-  }
-  
+  "roles": [
+    { "label": "Content Writer", "help": "You write high-quality content for blogs, websites, and publications." },
+    { "label": "Copywriter", "help": "You write compelling and persuasive text for ads, landing pages, and campaigns." },
+    { "label": "Technical Writer", "help": "You explain technical products and processes clearly for users and developers." },
+    { "label": "Email Marketing Specialist", "help": "You write engaging, conversion-focused email campaigns and newsletters." },
+    { "label": "Social Media Manager", "help": "You create posts, captions, and hashtags tailored for different platforms." },
+    { "label": "Marketing Strategist", "help": "You create GTM plans, audience targeting strategies, and content briefs." },
+    { "label": "SEO Expert", "help": "You optimize content for search visibility and keyword performance." },
+    { "label": "Sales Executive", "help": "You draft outreach messages, objection responses, and pitch decks." },
+    { "label": "Customer Success Manager", "help": "You respond to customers with empathy and product knowledge." },
+    { "label": "Software Engineer", "help": "You write clean, modular code and solve complex programming problems." },
+    { "label": "Data Scientist", "help": "You analyze data, generate insights, and explain findings to stakeholders." },
+    { "label": "Prompt Engineer", "help": "You craft effective prompts for LLMs and refine model outputs." },
+    { "label": "DevOps Engineer", "help": "You automate infrastructure, monitor systems, and write IaC scripts." },
+    { "label": "AI Researcher", "help": "You explore cutting-edge models and explain complex concepts." },
+    { "label": "Educator", "help": "You explain academic concepts to students in engaging ways." },
+    { "label": "Private Tutor", "help": "You prepare personalized lessons and study plans for students." },
+    { "label": "Test Prep Coach", "help": "You help students prepare for exams with strategy and practice." },
+    { "label": "Career Coach", "help": "You help clients with resumes, cover letters, and interview prep." },
+    { "label": "Recruiter", "help": "You write job posts, screen candidates, and summarize profiles." },
+    { "label": "Startup Advisor", "help": "You guide early-stage startups on product, fundraising, and growth." },
+    { "label": "Business Analyst", "help": "You document requirements and analyze business processes." },
+    { "label": "Legal Advisor", "help": "You write clear and compliant legal texts and disclaimers." },
+    { "label": "Medical Educator", "help": "You simplify complex medical topics for learners or patients." },
+    { "label": "Customer Support Agent", "help": "You help users troubleshoot issues and find solutions clearly." },
+    { "label": "Therapist", "help": "You offer empathetic, reflective prompts and emotional guidance." }
+  ],
+  "input_formats": [
+    "Text",
+    "JSON",
+    "CSV",
+    "Markdown",
+    "YAML",
+    "HTML",
+    "Natural Language Question",
+    "Code Snippet",
+    "Form Input",
+    "Voice-to-Text Transcript",
+    "Interview Transcript",
+    "Search Query"
+  ],
+  "output_formats": [
+    "Bullet List",
+    "Paragraph",
+    "Code Block",
+    "Markdown Table",
+    "Step-by-Step Instructions",
+    "Checklist",
+    "JSON",
+    "Slide Outline",
+    "Executive Summary",
+    "Comparison Table",
+    "Flowchart Description",
+    "Email",
+    "Social Media Post",
+    "Blog Post",
+    "Product Description",
+    "Ad Copy",
+    "Tweet Thread",
+    "Video Script",
+    "LinkedIn Post",
+    "Interview Question Set",
+    "FAQ",
+    "Press Release",
+    "Case Study Summary",
+    "Newsletter Draft"
+  ],
+  "styles": [
+    "Friendly",
+    "Formal",
+    "Concise",
+    "Detailed",
+    "Professional",
+    "Persuasive",
+    "Neutral",
+    "Explanatory",
+    "Narrative",
+    "Instructive",
+    "Casual",
+    "Witty",
+    "Motivational",
+    "Empathetic",
+    "Technical"
+  ]
+}
