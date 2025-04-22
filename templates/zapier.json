@@ -1,0 +1,13 @@
+{
+    "name": "Zapier - Webhook Trigger",
+    "description": "Trigger any Zapier automation using Webhooks (catch hook URLs)",
+    "url": "{{ZapierWebhookUrl}}",
+    "method": "POST",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "{{CustomKey}}": "{{CustomValue}}"
+    }
+  }
+  
