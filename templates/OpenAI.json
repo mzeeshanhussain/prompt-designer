@@ -1,0 +1,17 @@
+{
+    "name": "OpenAI Completion",
+    "description": "Send a prompt to OpenAI and receive completion",
+    "url": "https://api.openai.com/v1/completions",
+    "method": "POST",
+    "headers": {
+      "Content-Type": "application/json",
+      "Authorization": "Bearer {{OpenAIToken}}"
+    },
+    "body": {
+      "model": "text-davinci-003",
+      "prompt": "{{Prompt}}",
+      "max_tokens": 100
+    },
+    "responsePath": "choices[0].text"
+  }
+  
