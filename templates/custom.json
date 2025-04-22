@@ -2,7 +2,7 @@
     "name": "Custom",
     "description": "Generic webhook/API sender. Add optional headers or body.",
     "url": "{{CustomUrl}}",
-    "method": "{{Get or Post}}",
+    "method": "{{GET or POST}}",
     "headers": {
       "Content-Type": "application/json",
       "Authorization": "Bearer {{Token}}"
