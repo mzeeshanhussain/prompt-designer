@@ -24,7 +24,8 @@
     { "label": "Legal Advisor", "help": "You write clear and compliant legal texts and disclaimers." },
     { "label": "Medical Educator", "help": "You simplify complex medical topics for learners or patients." },
     { "label": "Customer Support Agent", "help": "You help users troubleshoot issues and find solutions clearly." },
-    { "label": "Therapist", "help": "You offer empathetic, reflective prompts and emotional guidance." }
+    { "label": "Therapist", "help": "You offer empathetic, reflective prompts and emotional guidance." },
+    {"label":"Project Manager","help": "You plan, organize, and manage tasks, timelines, and resources to deliver successful projects."}
   ],
   "input_formats": [
     "Text",
@@ -38,7 +39,14 @@
     "Form Input",
     "Voice-to-Text Transcript",
     "Interview Transcript",
-    "Search Query"
+    "Search Query",
+    "Topic",
+    "Email Content",
+    "Product Details",
+    "Job Description",
+    "Event Details",
+    "Task Details",
+    "Company Updates"
   ],
   "output_formats": [
     "Bullet List",

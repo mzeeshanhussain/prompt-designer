@@ -1,0 +1,163 @@
+[
+    {
+      "name": "Write a LinkedIn Post",
+      "role": "Social Media Manager",
+      "goal": "Create a professional LinkedIn post to share insights or updates",
+      "input_format": "Topic",
+      "output_format": "LinkedIn Post",
+      "style": "Professional"
+    },
+    {
+      "name": "Respond to an Email",
+      "role": "Email Marketing Specialist",
+      "goal": "Draft a polite and effective email response",
+      "input_format": "Email Content",
+      "output_format": "Email",
+      "style": "Formal"
+    },
+    {
+      "name": "Summarize an Article",
+      "role": "Content Writer",
+      "goal": "Provide a concise summary of the given article",
+      "input_format": "Text",
+      "output_format": "Executive Summary",
+      "style": "Concise"
+    },
+    {
+      "name": "Generate a Blog Post",
+      "role": "Content Writer",
+      "goal": "Write an engaging blog post on the provided topic",
+      "input_format": "Topic",
+      "output_format": "Blog Post",
+      "style": "Friendly"
+    },
+    {
+      "name": "Create a Product Description",
+      "role": "Copywriter",
+      "goal": "Craft a compelling product description",
+      "input_format": "Product Details",
+      "output_format": "Product Description",
+      "style": "Persuasive"
+    },
+    {
+      "name": "Draft a Cover Letter",
+      "role": "Career Coach",
+      "goal": "Write a tailored cover letter for a job application",
+      "input_format": "Job Description",
+      "output_format": "Paragraph",
+      "style": "Professional"
+    },
+    {
+      "name": "Summarize Meeting Notes",
+      "role": "Business Analyst",
+      "goal": "Summarize key points and action items from meeting notes",
+      "input_format": "Interview Transcript",
+      "output_format": "Bullet List",
+      "style": "Concise"
+    },
+    {
+      "name": "Translate Text",
+      "role": "Educator",
+      "goal": "Translate the provided text into the desired language",
+      "input_format": "Text",
+      "output_format": "Paragraph",
+      "style": "Neutral"
+    },
+    {
+      "name": "Create a Social Media Caption",
+      "role": "Social Media Manager",
+      "goal": "Write an engaging caption for social media",
+      "input_format": "Topic",
+      "output_format": "Social Media Post",
+      "style": "Witty"
+    },
+    {
+      "name": "Generate Interview Questions",
+      "role": "Recruiter",
+      "goal": "Create a set of interview questions for a specific role",
+      "input_format": "Job Description",
+      "output_format": "Interview Question Set",
+      "style": "Professional"
+    },
+    {
+      "name": "Write a Press Release",
+      "role": "Marketing Strategist",
+      "goal": "Draft a press release for a new product or event",
+      "input_format": "Event Details",
+      "output_format": "Press Release",
+      "style": "Formal"
+    },
+    {
+      "name": "Summarize a Research Paper",
+      "role": "AI Researcher",
+      "goal": "Provide a summary of the key findings from a research paper",
+      "input_format": "Text",
+      "output_format": "Executive Summary",
+      "style": "Technical"
+    },
+    {
+      "name": "Create a Lesson Plan",
+      "role": "Educator",
+      "goal": "Develop a lesson plan for a specific topic",
+      "input_format": "Topic",
+      "output_format": "Step-by-Step Instructions",
+      "style": "Instructive"
+    },
+    {
+      "name": "Write a Tweet Thread",
+      "role": "Social Media Manager",
+      "goal": "Compose a series of tweets on a particular subject",
+      "input_format": "Topic",
+      "output_format": "Tweet Thread",
+      "style": "Casual"
+    },
+    {
+      "name": "Generate FAQs",
+      "role": "Customer Support Agent",
+      "goal": "Create a list of frequently asked questions and answers",
+      "input_format": "Product Details",
+      "output_format": "FAQ",
+      "style": "Explanatory"
+    },
+    {
+      "name": "Write a Video Script",
+      "role": "Content Writer",
+      "goal": "Draft a script for a promotional video",
+      "input_format": "Product Details",
+      "output_format": "Video Script",
+      "style": "Persuasive"
+    },
+    {
+      "name": "Create a Checklist",
+      "role": "Project Manager",
+      "goal": "Develop a checklist for a specific task or project",
+      "input_format": "Task Details",
+      "output_format": "Checklist",
+      "style": "Detailed"
+    },
+    {
+      "name": "Write an Ad Copy",
+      "role": "Copywriter",
+      "goal": "Craft an attention-grabbing advertisement copy",
+      "input_format": "Product Details",
+      "output_format": "Ad Copy",
+      "style": "Persuasive"
+    },
+    {
+      "name": "Generate a Case Study Summary",
+      "role": "Business Analyst",
+      "goal": "Summarize the key points from a case study",
+      "input_format": "Text",
+      "output_format": "Case Study Summary",
+      "style": "Formal"
+    },
+    {
+      "name": "Draft a Newsletter",
+      "role": "Email Marketing Specialist",
+      "goal": "Write content for a company newsletter",
+      "input_format": "Company Updates",
+      "output_format": "Newsletter Draft",
+      "style": "Friendly"
+    }
+  ]
+  
