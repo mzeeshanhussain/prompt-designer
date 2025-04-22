@@ -1,17 +1,21 @@
 {
-    "name": "OpenAI Completion",
-    "description": "Send a prompt to OpenAI and receive completion",
-    "url": "https://api.openai.com/v1/completions",
-    "method": "POST",
-    "headers": {
-      "Content-Type": "application/json",
-      "Authorization": "Bearer {{OpenAIToken}}"
-    },
-    "body": {
-      "model": "gpt-3.5-turbo",
-      "prompt": "{{Prompt}}",
-      "max_tokens": 100
-    },
-    "responsePath": "choices[0].text"
-  }
-  
+  "name": "OpenAI Chat",
+  "description": "Send a prompt to OpenAI's Chat API using gpt-3.5-turbo.",
+  "url": "https://api.openai.com/v1/chat/completions",
+  "method": "POST",
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer {{OpenAIToken}}"
+  },
+  "body": {
+    "model": "gpt-3.5-turbo",
+    "messages": [
+      {
+        "role": "user",
+        "content": "{{Prompt}}"
+      }
+    ],
+    "temperature": 0.7
+  },
+  "responsePath": "choices[0].message.content"
+}
