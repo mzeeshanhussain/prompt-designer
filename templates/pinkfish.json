@@ -1,0 +1,15 @@
+{
+    "name": "PinkFish - Trigger Automation",
+    "description": "Generic PinkFish API trigger for any automation using a dynamic endpoint, key, and payload.",
+    "url": "https://triggers.app.pinkfish.ai/ext/triggers/{{PinkFishTriggerId}}",
+    "method": "POST",
+    "headers": {
+      "x-api-key": "{{PinkFishApiKey}}",
+      "x-api-wait": "true",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "{{CustomKey}}": "{{CustomValue}}"
+    }
+  }
+  
