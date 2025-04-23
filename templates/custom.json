@@ -1,14 +1,9 @@
 {
-    "name": "Custom",
-    "description": "Generic webhook/API sender. Add optional headers or body.",
+    "name": "Custom (Advanced)",
+    "description": "Manual webhook/API sender with full control over headers and body.",
     "url": "{{CustomUrl}}",
-    "method": "{{GET or POST}}",
-    "headers": {
-      "Content-Type": "application/json",
-      "Authorization": "Bearer {{Token}}"
-    },
-    "body": {
-      "data": "{{UserData}}"
-    }
+    "method": "{{CustomMethod}}",
+    "headersRaw": "{{RawHeaders}}",
+    "bodyRaw": "{{RawBody}}"
   }
   
