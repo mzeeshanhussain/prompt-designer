@@ -10,5 +10,9 @@
   {
     "name": "Google AI",
     "url": "https://www.google.com/search?q={prompt}&udm=50"
-  }
+  },
+  {
+  "name": "Claude",
+  "url": "https://claude.ai/new?q={prompt}"
+}
 ]
