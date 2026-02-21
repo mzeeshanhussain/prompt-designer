@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Perplexity",
+    "url": "https://www.perplexity.ai/search?q={prompt}"
+  },
+  {
+    "name": "ChatGPT",
+    "url": "https://chatgpt.com/?q={prompt}"
+  },
+  {
+    "name": "Google AI",
+    "url": "https://www.google.com/search?q={prompt}&udm=50"
+  }
+]
