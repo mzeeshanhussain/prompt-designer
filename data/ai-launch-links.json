@@ -17,7 +17,7 @@
 },
 {
     "name": "Copilot (Bing AI Search)",
-    "url": "https://bing.com/copilotsearch?q={encoded_prompt}&FORM=CSSCOP"
+    "url": "https://bing.com/copilotsearch?q={prompt}&FORM=CSSCOP"
   }
 
 ]
