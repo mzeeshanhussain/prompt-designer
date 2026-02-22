@@ -3,180 +3,180 @@
     "id": "linkedin-post-001",
     "name": "Write a LinkedIn Post",
     "role": "Social Media Manager",
-    "goal": "Create a professional LinkedIn post for executives and thought leaders. Open with a compelling hook or insight. Structure: 3-5 short paragraphs (not bullets), include personal story or data point, key takeaway, thought-provoking question to drive engagement. Constraints: NO emojis, NO hashtags in body (max 3 at end), avoid clickbait, 150-300 words. Tone: authoritative yet conversational, first-person perspective. End with clear call-to-action or discussion prompt. Avoid: sales language, buzzwords like 'game-changer' or 'disruptive', em dashes.",
+    "goal": "Create a professional LinkedIn post for executives and thought leaders. Open with a compelling hook or insight. Structure: 3-5 short paragraphs (not bullets), include personal story or data point, key takeaway, thought-provoking question to drive engagement. Constraints: NO emojis, NO hashtags in body (max 3 at end), avoid clickbait, 150-300 words. End with clear call-to-action or discussion prompt. Avoid: sales language, buzzwords like 'game-changer' or 'disruptive', em dashes.",
     "input_format": "Topic",
     "output_format": "LinkedIn Post",
-    "style": "Professional"
+    "tone": "Authoritative and professional, first-person perspective"
   },
   {
     "id": "email-response-002",
     "name": "Respond to an Email",
     "role": "Email Marketing Specialist",
-    "goal": "Draft a polite and effective email response for business communication. Structure: professional greeting, acknowledge sender's message/question, provide clear response with specific details, next steps or action items, professional closing. Constraints: NO emojis, formal salutation and sign-off, 150-300 words, avoid contractions in formal contexts. Tone: courteous and professional, match sender's formality level. Include: specific answers to questions asked, clear timeline for follow-ups if applicable. Avoid: overly casual language, em dashes, multiple exclamation marks, passive-aggressive phrasing.",
+    "goal": "Draft a polite and effective email response for business communication. Structure: professional greeting, acknowledge sender's message/question, provide clear response with specific details, next steps or action items, professional closing. Constraints: NO emojis, 150-300 words, avoid contractions in formal contexts. Include: specific answers to questions asked, clear timeline for follow-ups if applicable. Avoid: overly casual language, em dashes, multiple exclamation marks.",
     "input_format": "Email Content",
     "output_format": "Email",
-    "style": "Formal"
+    "tone": "Formal and structured, match sender's formality level"
   },
   {
     "id": "article-summary-003",
     "name": "Summarize an Article",
     "role": "Content Writer",
-    "goal": "Provide a concise executive summary of the article for busy professionals. Structure: opening sentence stating main thesis, 3-4 key points with supporting evidence, conclusion with implications or takeaways. Constraints: 200-300 words (roughly 1/3 of original length), maintain factual accuracy, NO opinions unless clearly labeled, NO emojis. Tone: objective and informative. Include: specific data/statistics from article, author's main arguments. Preserve: technical terms and proper nouns. Avoid: direct quotes (paraphrase instead), personal interpretation, em dashes, marketing language.",
+    "goal": "Provide a concise executive summary of the article for busy professionals. Structure: opening sentence stating main thesis, 3-4 key points with supporting evidence, conclusion with implications or takeaways. Constraints: 200-300 words, maintain factual accuracy, NO opinions unless clearly labeled, NO emojis. Include: specific data/statistics from article, author's main arguments. Avoid: direct quotes (paraphrase instead), personal interpretation, em dashes.",
     "input_format": "Text",
     "output_format": "Executive Summary",
-    "style": "Concise"
+    "tone": "Neutral and objective, informative and concise"
   },
   {
     "id": "blog-post-004",
     "name": "Generate a Blog Post",
     "role": "Content Writer",
-    "goal": "Write an engaging, SEO-optimized blog post for general audience. Structure: compelling hook in first paragraph, clear H2/H3 subheadings every 200-300 words, 3-5 main sections, actionable conclusion with call-to-action. Constraints: 800-1200 words, 8th grade readability (Flesch-Kincaid), NO emojis, conversational but professional tone. Include: 2-3 concrete examples, practical takeaways readers can implement, transition sentences between sections. Use: active voice (80%+ of sentences), second person ('you'), short paragraphs (3-4 sentences max). Avoid: walls of text, em dashes, jargon without explanation, clickbait headlines.",
+    "goal": "Write an engaging, SEO-optimized blog post for general audience. Structure: compelling hook in first paragraph, clear H2/H3 subheadings every 200-300 words, 3-5 main sections, actionable conclusion with call-to-action. Constraints: 800-1200 words, 8th grade readability, NO emojis. Include: 2-3 concrete examples, practical takeaways, transition sentences between sections. Use: active voice, second person ('you'), short paragraphs (3-4 sentences max). Avoid: walls of text, em dashes, jargon without explanation.",
     "input_format": "Topic",
     "output_format": "Blog Post",
-    "style": "Friendly"
+    "tone": "Friendly and conversational, approachable yet informative"
   },
   {
     "id": "product-description-005",
     "name": "Create a Product Description",
     "role": "Copywriter",
-    "goal": "Craft a compelling product description that drives conversions. Structure: attention-grabbing opening line highlighting main benefit, 2-3 paragraphs covering features-as-benefits, specifications/details in scannable format, strong closing with urgency or social proof. Constraints: 150-250 words, focus on customer benefits not just features, NO emojis, avoid superlatives without proof. Include: specific use cases, who this product is for, what problem it solves. Use: sensory language where appropriate, power words (proven, guaranteed, exclusive), second person ('you' and 'your'). Avoid: generic descriptions, technical jargon without context, em dashes, unsubstantiated claims like 'best in class'.",
+    "goal": "Craft a compelling product description that drives conversions. Structure: attention-grabbing opening line highlighting main benefit, 2-3 paragraphs covering features-as-benefits, specifications in scannable format, strong closing with urgency or social proof. Constraints: 150-250 words, focus on customer benefits not just features, NO emojis. Include: specific use cases, who this product is for, what problem it solves. Avoid: generic descriptions, em dashes, unsubstantiated claims.",
     "input_format": "Product Details",
     "output_format": "Product Description",
-    "style": "Persuasive"
+    "tone": "Persuasive and confident, benefit-driven and second-person"
   },
   {
     "id": "cover-letter-006",
     "name": "Draft a Cover Letter",
     "role": "Career Coach",
-    "goal": "Write a tailored cover letter that demonstrates fit for the specific role. Structure: opening paragraph stating position and 1-2 sentence hook explaining interest, 2-3 paragraphs matching candidate's experience to job requirements with specific examples and quantifiable achievements, closing paragraph with enthusiasm and clear call-to-action. Constraints: 300-400 words (single page), formal business format, NO emojis, NO generic templates. Tone: confident but not arrogant, enthusiastic but professional. Include: specific company research (show you understand their mission/challenges), concrete examples with metrics where possible, keywords from job description. Avoid: repeating resume verbatim, desperate language, em dashes, clichés like 'team player' or 'hard worker' without evidence.",
+    "goal": "Write a tailored cover letter that demonstrates fit for the specific role. Structure: opening paragraph stating position and hook explaining interest, 2-3 paragraphs matching experience to job requirements with specific examples and quantifiable achievements, closing with enthusiasm and clear call-to-action. Constraints: 300-400 words, NO emojis, NO generic templates. Include: specific company research, concrete examples with metrics, keywords from job description. Avoid: repeating resume verbatim, em dashes, clichés like 'team player' without evidence.",
     "input_format": "Job Description",
     "output_format": "Paragraph",
-    "style": "Professional"
+    "tone": "Confident and professional, enthusiastic but not desperate"
   },
   {
     "id": "meeting-notes-007",
     "name": "Summarize Meeting Notes",
     "role": "Business Analyst",
-    "goal": "Summarize meeting notes into actionable format for team distribution. Structure: brief context (meeting purpose, attendees, date), key discussion points organized by topic, decisions made (clearly labeled), action items with owners and deadlines, next steps or follow-up needed. Constraints: bullet points format for scannability, 200-400 words depending on meeting length, NO emojis, objective tone. Include: specific names for action item owners, concrete deadlines not vague 'soon', quantifiable decisions. Use: present tense for decisions ('Team agrees to...'), future tense for action items ('John will...'). Avoid: verbatim transcription, personal opinions, unimportant tangents, em dashes, ambiguous assignments ('someone should...').",
+    "goal": "Summarize meeting notes into actionable format for team distribution. Structure: brief context (meeting purpose, attendees, date), key discussion points organized by topic, decisions made, action items with owners and deadlines, next steps. Constraints: bullet points format, 200-400 words, NO emojis, objective tone. Include: specific names for action item owners, concrete deadlines. Use: present tense for decisions, future tense for action items. Avoid: verbatim transcription, personal opinions, ambiguous assignments.",
     "input_format": "Interview Transcript",
     "output_format": "Bullet List",
-    "style": "Concise"
+    "tone": "Concise and direct, objective and action-oriented"
   },
   {
     "id": "translate-text-008",
     "name": "Translate Text",
     "role": "Educator",
-    "goal": "Translate text accurately while preserving meaning, tone, and cultural context. Constraints: maintain original formatting (paragraphs, line breaks), preserve proper nouns and technical terms unless target language has standard equivalent, match formality level of source text, NO emojis unless present in original. Tone: match source material (formal/informal, technical/casual). Include: cultural adaptations where direct translation would be confusing (explain idioms in brackets if no equivalent exists). Preserve: numbers, dates, measurements (note if conversion needed), brand names. Avoid: word-for-word translation that loses meaning, adding interpretation, em dashes unless in original, changing sentence structure unnecessarily. Note: if technical/specialized vocabulary, maintain accuracy over natural flow.",
+    "goal": "Translate text accurately while preserving meaning, tone, and cultural context. Constraints: maintain original formatting, preserve proper nouns and technical terms unless target language has standard equivalent, match formality level of source text. Include: cultural adaptations where direct translation would be confusing. Preserve: numbers, dates, brand names. Avoid: word-for-word translation that loses meaning, adding interpretation, changing sentence structure unnecessarily.",
     "input_format": "Text",
     "output_format": "Paragraph",
-    "style": "Neutral"
+    "tone": "Neutral and faithful to source material, match original formality"
   },
   {
     "id": "social-caption-009",
     "name": "Create a Social Media Caption",
     "role": "Social Media Manager",
-    "goal": "Write an engaging social media caption optimized for Instagram/Facebook. Structure: hook in first sentence (before 'see more' cutoff), main message in 2-3 sentences, call-to-action or question to drive engagement. Constraints: 125-150 characters for hook, total 150-300 words, emojis ENCOURAGED (2-4 relevant ones), casual conversational tone. Include: relevant hashtags (5-10 for Instagram, 2-3 for Facebook/LinkedIn), tag suggestions if applicable, question or CTA at end. Use: line breaks for readability (double space between thoughts), relatable language, second person ('you'). Avoid: hashtag stuffing, multiple exclamation marks in a row, salesy language, em dashes. Platform note: optimize for mobile viewing, assume visual content accompanies caption.",
+    "goal": "Write an engaging social media caption optimized for Instagram/Facebook. Structure: hook in first sentence (before 'see more' cutoff), main message in 2-3 sentences, call-to-action or question to drive engagement. Constraints: 125-150 characters for hook, total 150-300 words, emojis ENCOURAGED (2-4 relevant ones). Include: relevant hashtags (5-10 for Instagram), question or CTA at end. Use: line breaks for readability, relatable language. Avoid: hashtag stuffing, multiple exclamation marks in a row, em dashes.",
     "input_format": "Topic",
     "output_format": "Social Media Post",
-    "style": "Witty"
+    "tone": "Casual and witty, engaging and second-person"
   },
   {
     "id": "interview-questions-010",
     "name": "Generate Interview Questions",
     "role": "Recruiter",
-    "goal": "Create a comprehensive set of behavioral and technical interview questions for the specific role. Structure: 3-4 screening questions (culture fit, motivation), 5-7 behavioral questions using STAR method format, 5-7 technical/role-specific questions, 2-3 scenario-based questions. Constraints: 15-20 total questions, NO illegal questions (age, marital status, religion, etc.), bias-free language, questions should have clear evaluation criteria. Include: mix of experience levels (junior to senior), competency-based questions tied to job requirements, open-ended questions that require detailed responses. Format: question followed by [evaluation note] indicating what to listen for. Avoid: yes/no questions, leading questions, hypothetical 'what would you do' without context, em dashes, questions that favor certain demographics.",
+    "goal": "Create a comprehensive set of behavioral and technical interview questions. Structure: 3-4 screening questions, 5-7 behavioral questions using STAR method format, 5-7 technical/role-specific questions, 2-3 scenario-based questions. Constraints: 15-20 total questions, NO illegal questions, bias-free language. Include: mix of experience levels, competency-based questions. Format: question followed by [evaluation note] indicating what to listen for. Avoid: yes/no questions, leading questions, questions that favor certain demographics.",
     "input_format": "Job Description",
     "output_format": "Interview Question Set",
-    "style": "Professional"
+    "tone": "Authoritative and professional, clear and structured"
   },
   {
     "id": "press-release-011",
     "name": "Write a Press Release",
     "role": "Marketing Strategist",
-    "goal": "Draft a media-ready press release following AP style guidelines. Structure: compelling headline (10-12 words), dateline with city and state, strong lead paragraph with who/what/when/where/why, 2-3 body paragraphs with supporting details and quotes, boilerplate company description, media contact information. Constraints: 400-600 words, inverted pyramid structure (most important info first), NO emojis, NO marketing hype, third-person perspective only. Include: at least one executive quote, specific data/statistics, clear news angle. Format: proper AP style (spell out numbers under 10, state abbreviations, etc.), quotes properly attributed with title and company. Tone: factual and newsworthy, not promotional. Avoid: superlatives without evidence, first-person, em dashes, burying the lead, jargon without explanation.",
+    "goal": "Draft a media-ready press release following AP style guidelines. Structure: compelling headline (10-12 words), dateline, strong lead paragraph with who/what/when/where/why, 2-3 body paragraphs with supporting details and quotes, boilerplate company description, media contact information. Constraints: 400-600 words, inverted pyramid structure, NO emojis, NO marketing hype, third-person only. Include: at least one executive quote, specific data/statistics. Avoid: superlatives without evidence, em dashes, burying the lead.",
     "input_format": "Event Details",
     "output_format": "Press Release",
-    "style": "Formal"
+    "tone": "Formal and factual, newsworthy and third-person"
   },
   {
     "id": "research-summary-012",
     "name": "Summarize a Research Paper",
     "role": "AI Researcher",
-    "goal": "Provide a rigorous summary of research paper for academic and technical audiences. Structure: research question/hypothesis (2-3 sentences), methodology overview with sample size and approach, primary findings with specific quantitative results, statistical significance where applicable, limitations acknowledged, practical implications or future research directions. Constraints: 400-600 words, maintain technical accuracy, cite specific figures and tables from paper, NO emojis, NO oversimplification. Tone: objective and scholarly, assume audience has domain knowledge. Include: key metrics (p-values, confidence intervals, effect sizes), technical terminology appropriate to field, comparison to prior research if mentioned. Avoid: speculation beyond paper scope, marketing language, casual tone, em dashes, editorializing on findings. Note: preserve mathematical notation and statistical terms accurately.",
+    "goal": "Provide a rigorous summary of research paper for academic and technical audiences. Structure: research question/hypothesis, methodology overview, primary findings with quantitative results, statistical significance, limitations, practical implications. Constraints: 400-600 words, maintain technical accuracy, cite specific figures, NO emojis. Include: key metrics (p-values, confidence intervals), technical terminology, comparison to prior research. Avoid: speculation beyond paper scope, casual tone, editorializing on findings.",
     "input_format": "Text",
     "output_format": "Executive Summary",
-    "style": "Technical"
+    "tone": "Precise and technical, objective and scholarly"
   },
   {
     "id": "lesson-plan-013",
     "name": "Create a Lesson Plan",
     "role": "Educator",
-    "goal": "Develop a comprehensive lesson plan following educational best practices. Structure: learning objectives (specific, measurable, using Bloom's taxonomy verbs), materials needed, warm-up activity (5-10 min), main instruction with guided practice (20-30 min), independent practice or group work (15-20 min), assessment method, closure/reflection (5 min). Constraints: 45-60 minute class period, differentiation strategies for varied learning levels, NO emojis, age-appropriate language for target grade. Include: specific timing for each section, formative assessment checkpoints, accommodation suggestions for diverse learners. Format: clear numbered steps, anticipated student responses or common misconceptions. Tone: instructional and supportive. Avoid: vague objectives like 'understand' (use 'analyze', 'create', 'evaluate' instead), activities without clear learning purpose, em dashes, assuming prior knowledge without checking.",
+    "goal": "Develop a comprehensive lesson plan following educational best practices. Structure: learning objectives using Bloom's taxonomy verbs, materials needed, warm-up activity (5-10 min), main instruction with guided practice (20-30 min), independent practice (15-20 min), assessment method, closure/reflection (5 min). Constraints: 45-60 minute class period, differentiation strategies, NO emojis. Include: specific timing, formative assessment checkpoints, accommodation suggestions. Avoid: vague objectives like 'understand', activities without clear learning purpose.",
     "input_format": "Topic",
     "output_format": "Step-by-Step Instructions",
-    "style": "Instructive"
+    "tone": "Instructive and supportive, clear and structured"
   },
   {
     "id": "tweet-thread-014",
     "name": "Write a Tweet Thread",
     "role": "Social Media Manager",
-    "goal": "Compose an engaging Twitter thread (6-10 tweets) optimized for the platform. Structure: Tweet 1 must hook with bold statement or question, Tweets 2-8 develop one clear point each with specific examples or data, final tweet summarizes key takeaway with CTA. Constraints: each tweet under 280 characters, emojis ENCOURAGED (1-2 per tweet for visual breaks), use line breaks within tweets for readability, conversational tone. Include: relevant hashtags (2-3 total across thread, not in every tweet), numbers or statistics where possible, tag relevant accounts if applicable. Format: number tweets (1/10, 2/10, etc.) or use thread indicator. Use: short punchy sentences, active voice, second person ('you'). Avoid: walls of text, complex jargon without explanation, multiple exclamation marks, em dashes, threads longer than 12 tweets (lose engagement). Platform note: first tweet gets most visibility, make it count.",
+    "goal": "Compose an engaging Twitter thread (6-10 tweets). Structure: Tweet 1 hooks with bold statement or question, Tweets 2-8 develop one clear point each with examples or data, final tweet summarizes with CTA. Constraints: each tweet under 280 characters, emojis ENCOURAGED (1-2 per tweet), use line breaks within tweets. Include: relevant hashtags (2-3 total across thread), numbers or statistics. Format: number tweets (1/10, 2/10, etc.). Avoid: walls of text, threads longer than 12 tweets, em dashes.",
     "input_format": "Topic",
     "output_format": "Tweet Thread",
-    "style": "Casual"
+    "tone": "Casual and punchy, direct and second-person"
   },
   {
     "id": "faq-generation-015",
     "name": "Generate FAQs",
     "role": "Customer Support Agent",
-    "goal": "Create a comprehensive FAQ list that preemptively addresses customer questions. Structure: 8-12 question-answer pairs organized by category or customer journey stage, start with most common/important questions. Constraints: questions phrased as customers would ask them (conversational), answers 2-4 sentences each, NO emojis, clear and direct language. Include: specific details (pricing, timelines, technical specs), links to additional resources where applicable, troubleshooting steps for common issues. Format: Q: clear question, A: complete answer with actionable information. Tone: helpful and empathetic, avoid corporate speak. Use: 'you' and 'we', active voice, simple language (6th grade reading level). Avoid: vague answers like 'it depends', technical jargon without explanation, em dashes, defensive language, promising what you can't deliver. Note: anticipate follow-up questions and address in initial answer.",
+    "goal": "Create a comprehensive FAQ list that preemptively addresses customer questions. Structure: 8-12 question-answer pairs organized by category, start with most common questions. Constraints: questions phrased as customers would ask them, answers 2-4 sentences each, NO emojis. Include: specific details (pricing, timelines, specs), troubleshooting steps for common issues. Format: Q: clear question, A: complete answer. Avoid: vague answers like 'it depends', technical jargon without explanation, missing critical steps.",
     "input_format": "Product Details",
     "output_format": "FAQ",
-    "style": "Explanatory"
+    "tone": "Clear and helpful, empathetic and jargon-free"
   },
   {
     "id": "video-script-016",
     "name": "Write a Video Script",
     "role": "Content Writer",
-    "goal": "Draft a compelling video script for promotional content optimized for viewer retention. Structure: hook in first 3-5 seconds (question, bold statement, or visual tease), problem statement (10-15 sec), solution/product introduction (20-30 sec), benefits with visual examples (30-45 sec), social proof or demo (15-20 sec), strong CTA (10 sec). Constraints: 60-90 seconds total, written for spoken delivery (conversational, not literary), include [VISUAL CUES] in brackets, NO emojis. Format: two-column script with VIDEO and AUDIO columns. Include: specific shot descriptions, timing marks, music/sound cues, on-screen text suggestions. Tone: energetic but authentic, match brand voice. Use: active voice, direct address ('you'), short sentences (easy to speak), numbers/statistics for credibility. Avoid: long paragraphs (hard to read on camera), complex terminology, em dashes, passive voice, asking viewers to 'like and subscribe' before delivering value.",
+    "goal": "Draft a compelling video script for promotional content. Structure: hook in first 3-5 seconds, problem statement (10-15 sec), solution/product introduction (20-30 sec), benefits with visual examples (30-45 sec), social proof (15-20 sec), strong CTA (10 sec). Constraints: 60-90 seconds total, written for spoken delivery, include [VISUAL CUES] in brackets. Format: two-column script with VIDEO and AUDIO columns. Avoid: long paragraphs hard to read on camera, passive voice, asking to 'like and subscribe' before delivering value.",
     "input_format": "Product Details",
     "output_format": "Video Script",
-    "style": "Persuasive"
+    "tone": "Energetic and authentic, conversational and direct"
   },
   {
     "id": "checklist-017",
     "name": "Create a Checklist",
     "role": "Project Manager",
-    "goal": "Develop a comprehensive, actionable checklist for task or project completion. Structure: organized by phase or category with clear headings, 15-25 items total, sequential order where dependencies exist. Constraints: each item should be specific action with clear completion criteria, include estimated time or deadline where applicable, NO emojis, professional format. Include: checkbox format, items written as action verbs ('Review...' 'Submit...' 'Verify...'), dependencies noted (e.g., 'Before X, ensure Y is complete'), assignee field if team project. Format: □ Action item [Owner] [Deadline] [Notes]. Tone: direct and instructional. Use: imperative verbs, specific not vague language, measurable criteria. Avoid: combining multiple actions in one item, vague verbs like 'handle' or 'deal with', em dashes, items that can't be checked off objectively, missing critical steps. Note: order items logically, group related tasks, highlight critical path items.",
+    "goal": "Develop a comprehensive, actionable checklist for task or project completion. Structure: organized by phase or category with clear headings, 15-25 items total, sequential order where dependencies exist. Constraints: each item is a specific action with clear completion criteria, NO emojis. Include: checkbox format, items written as action verbs, dependencies noted, assignee field if team project. Format: □ Action item [Owner] [Deadline] [Notes]. Avoid: combining multiple actions in one item, vague verbs like 'handle', missing critical steps.",
     "input_format": "Task Details",
     "output_format": "Checklist",
-    "style": "Detailed"
+    "tone": "Direct and instructional, concise and action-oriented"
   },
   {
     "id": "ad-copy-018",
     "name": "Write an Ad Copy",
     "role": "Copywriter",
-    "goal": "Craft attention-grabbing advertisement copy that drives clicks and conversions using proven copywriting frameworks (AIDA, PAS, or FAB). Structure: headline that stops scroll (6-10 words), subheadline expanding on benefit, 2-3 sentences of body copy addressing pain point and solution, strong CTA with urgency or scarcity. Constraints: headline under 10 words, total copy 50-100 words, NO emojis (unless platform-appropriate like Facebook), benefit-focused not feature-focused. Include: specific value proposition, clear next step (CTA), social proof element if available (testimonial, stat, award). Format: HEADLINE in caps, Subheadline sentence case, body copy, [CTA Button Text]. Tone: persuasive and confident, match target audience voice. Use: power words (proven, guaranteed, exclusive, limited), second person ('you' get 'your'), active voice, numbers for credibility. Avoid: superlatives without proof, vague benefits, em dashes, multiple CTAs (confuses action), negative framing.",
+    "goal": "Craft attention-grabbing advertisement copy using AIDA, PAS, or FAB frameworks. Structure: headline that stops scroll (6-10 words), subheadline expanding on benefit, 2-3 sentences of body copy addressing pain point and solution, strong CTA with urgency or scarcity. Constraints: headline under 10 words, total copy 50-100 words, benefit-focused not feature-focused. Include: specific value proposition, clear CTA, social proof element. Avoid: superlatives without proof, multiple CTAs, negative framing, em dashes.",
     "input_format": "Product Details",
     "output_format": "Ad Copy",
-    "style": "Persuasive"
+    "tone": "Bold and persuasive, confident and second-person"
   },
   {
     "id": "case-study-019",
     "name": "Generate a Case Study Summary",
     "role": "Business Analyst",
-    "goal": "Summarize case study for business stakeholders using analytical framework. Structure: company/situation background (2-3 sentences), challenge or problem statement with quantified impact, solution or approach taken with specific tactics, measurable results with before/after metrics, key lessons or implications for similar situations. Constraints: 400-500 words, data-driven and objective, include specific numbers/percentages, NO emojis, formal business tone. Include: ROI or impact metrics where available, timeline of implementation, what worked and what didn't (balanced view), applicable frameworks used (SWOT, Porter's Five Forces, etc.). Format: clear section headers, bullet points for results metrics. Tone: analytical and professional, third-person perspective. Use: business terminology appropriate to industry, cause-and-effect language, comparative analysis. Avoid: promotional language, unsubstantiated claims, em dashes, ignoring failures or limitations, vague outcomes like 'improved efficiency' without numbers.",
+    "goal": "Summarize case study for business stakeholders using analytical framework. Structure: company/situation background, challenge with quantified impact, solution with specific tactics, measurable results with before/after metrics, key lessons. Constraints: 400-500 words, data-driven and objective, include specific numbers/percentages, NO emojis. Include: ROI metrics, timeline, what worked and what didn't. Format: clear section headers, bullet points for results. Avoid: promotional language, vague outcomes like 'improved efficiency' without numbers.",
     "input_format": "Text",
     "output_format": "Case Study Summary",
-    "style": "Formal"
+    "tone": "Analytical and formal, third-person and data-driven"
   },
   {
     "id": "newsletter-020",
     "name": "Draft a Newsletter",
     "role": "Email Marketing Specialist",
-    "goal": "Write engaging newsletter content that drives opens, reads, and clicks. Structure: subject line (preview text suggestion), friendly greeting, brief intro/hook, 3-4 main content sections with clear headings, featured content or highlight, CTA section with 1-2 clear action buttons, sign-off with personality. Constraints: 300-500 words, scannable format with subheadings, mobile-optimized (short paragraphs), NO emojis in subject line (some email clients flag as spam), conversational but professional tone. Include: personalization elements [FIRST_NAME], relevant links to blog/product/resources, value-first content before ask, preview/teaser for next newsletter. Format: short paragraphs (2-3 sentences), use of white space, bold key points. Tone: friendly and warm like emailing a colleague, brand voice consistent. Use: 'we' and 'you', active voice, benefit-driven language. Avoid: ALL CAPS in subject lines, multiple CTAs competing for attention, em dashes, overly promotional language, long blocks of text.",
+    "goal": "Write engaging newsletter content that drives opens, reads, and clicks. Structure: subject line with preview text suggestion, friendly greeting, brief intro/hook, 3-4 main content sections with clear headings, featured content, CTA section, sign-off with personality. Constraints: 300-500 words, scannable format, mobile-optimized short paragraphs, NO emojis in subject line. Include: personalization elements [FIRST_NAME], relevant links, value-first content before ask. Avoid: ALL CAPS in subject lines, multiple competing CTAs, long blocks of text.",
     "input_format": "Company Updates",
     "output_format": "Newsletter Draft",
-    "style": "Friendly"
+    "tone": "Warm and friendly, conversational like emailing a colleague"
   }
 ]

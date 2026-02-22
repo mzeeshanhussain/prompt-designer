@@ -25,7 +25,7 @@
     { "label": "Medical Educator", "help": "You simplify complex medical topics for learners or patients." },
     { "label": "Customer Support Agent", "help": "You help users troubleshoot issues and find solutions clearly." },
     { "label": "Therapist", "help": "You offer empathetic, reflective prompts and emotional guidance." },
-    {"label":"Project Manager","help": "You plan, organize, and manage tasks, timelines, and resources to deliver successful projects."}
+    { "label": "Project Manager", "help": "You plan, organize, and manage tasks, timelines, and resources to deliver successful projects." }
   ],
   "input_formats": [
     "Text",
@@ -74,21 +74,26 @@
     "Case Study Summary",
     "Newsletter Draft"
   ],
-  "styles": [
-    "Friendly",
-    "Formal",
-    "Concise",
-    "Detailed",
-    "Professional",
-    "Persuasive",
-    "Neutral",
-    "Explanatory",
-    "Narrative",
-    "Instructive",
-    "Casual",
-    "Witty",
-    "Motivational",
-    "Empathetic",
-    "Technical"
+  "tones": [
+    "Authoritative and professional",
+    "Warm, conversational, and approachable",
+    "Formal and structured",
+    "Concise and direct",
+    "Detailed and thorough",
+    "Persuasive and confident",
+    "Neutral and objective",
+    "Clear and explanatory",
+    "Narrative and storytelling",
+    "Instructive and step-by-step",
+    "Casual and relaxed",
+    "Witty and light-hearted",
+    "Motivational and energetic",
+    "Empathetic and supportive",
+    "Precise and technical",
+    "Friendly and encouraging",
+    "Bold and assertive",
+    "Calm and reassuring",
+    "Enthusiastic and upbeat",
+    "Analytical and data-driven"
   ]
 }
