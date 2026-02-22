@@ -1,10 +1,11 @@
 {
   "name": "Gemini 2.5 Pro",
   "description": "Google's most capable model. Best for complex reasoning and analysis.",
-  "url": "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key={{GeminiApiKey}}",
+  "url": "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent",
   "method": "POST",
   "headers": {
-    "Content-Type": "application/json"
+    "Content-Type": "application/json",
+    "X-goog-api-key": "{{GeminiApiKey}}"
   },
   "body": {
     "contents": [
