@@ -1,6 +1,6 @@
 [
   {
-    "name": "Perplexity",
+    "name": "Perplexity (Recommended)",
     "url": "https://www.perplexity.ai/search?q={prompt}"
   },
   {
@@ -8,11 +8,16 @@
     "url": "https://chatgpt.com/?q={prompt}"
   },
   {
-    "name": "Google AI",
+    "name": "Gemini (Google AI Search)",
     "url": "https://www.google.com/search?q={prompt}&udm=50"
   },
   {
   "name": "Claude",
   "url": "https://claude.ai/new?q={prompt}"
-}
+},
+{
+    "name": "Copilot (Bing AI Search)",
+    "url": "https://bing.com/copilotsearch?q={encoded_prompt}&FORM=CSSCOP"
+  }
+
 ]
