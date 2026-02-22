@@ -1,0 +1,21 @@
+{
+  "name": "GPT-4o",
+  "description": "OpenAI's flagship model. Best for complex tasks requiring deep reasoning.",
+  "url": "https://api.openai.com/v1/chat/completions",
+  "method": "POST",
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer {{OpenAIToken}}"
+  },
+  "body": {
+    "model": "gpt-4o",
+    "messages": [
+      {
+        "role": "user",
+        "content": "{{Prompt}}"
+      }
+    ],
+    "temperature": 0.7
+  },
+  "responsePath": "choices[0].message.content"
+}

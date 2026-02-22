@@ -1,0 +1,22 @@
+{
+  "name": "Claude Sonnet",
+  "description": "Anthropic's best balance of speed and intelligence.",
+  "url": "https://api.anthropic.com/v1/messages",
+  "method": "POST",
+  "headers": {
+    "Content-Type": "application/json",
+    "x-api-key": "{{AnthropicApiKey}}",
+    "anthropic-version": "2023-06-01"
+  },
+  "body": {
+    "model": "claude-sonnet-4-6",
+    "max_tokens": 1024,
+    "messages": [
+      {
+        "role": "user",
+        "content": "{{Prompt}}"
+      }
+    ]
+  },
+  "responsePath": "content[0].text"
+}

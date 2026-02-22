@@ -1,5 +1,12 @@
 [
-    "OpenAI.json",
-    "pinkfish.json",
-    "zapier.json"
-  ]
+  "OpenAI-GPT4o-Mini.json",
+  "OpenAI-GPT4o.json",
+  "Gemini-Flash.json",
+  "Gemini-Pro.json",
+  "Claude-Haiku.json",
+  "Claude-Sonnet.json",
+  "Mistral-Small.json",
+  "Mistral-Large.json",
+  "pinkfish.json",
+  "zapier.json"
+]

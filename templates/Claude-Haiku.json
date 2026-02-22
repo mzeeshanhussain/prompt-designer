@@ -1,0 +1,22 @@
+{
+  "name": "Claude Haiku",
+  "description": "Anthropic's fastest model. Best for quick tasks and high volume.",
+  "url": "https://api.anthropic.com/v1/messages",
+  "method": "POST",
+  "headers": {
+    "Content-Type": "application/json",
+    "x-api-key": "{{AnthropicApiKey}}",
+    "anthropic-version": "2023-06-01"
+  },
+  "body": {
+    "model": "claude-haiku-4-5-20251001",
+    "max_tokens": 1024,
+    "messages": [
+      {
+        "role": "user",
+        "content": "{{Prompt}}"
+      }
+    ]
+  },
+  "responsePath": "content[0].text"
+}

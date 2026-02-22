@@ -1,0 +1,21 @@
+{
+  "name": "Gemini 2.5 Flash",
+  "description": "Fast and efficient. Best for most tasks. Free tier friendly.",
+  "url": "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={{GeminiApiKey}}",
+  "method": "POST",
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "{{Prompt}}"
+          }
+        ]
+      }
+    ]
+  },
+  "responsePath": "candidates[0].content.parts[0].text"
+}

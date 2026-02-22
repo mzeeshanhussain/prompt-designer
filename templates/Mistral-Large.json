@@ -1,0 +1,20 @@
+{
+  "name": "Mistral Large",
+  "description": "Mistral's most capable model. Best for complex reasoning tasks.",
+  "url": "https://api.mistral.ai/v1/chat/completions",
+  "method": "POST",
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer {{MistralApiKey}}"
+  },
+  "body": {
+    "model": "mistral-large-latest",
+    "messages": [
+      {
+        "role": "user",
+        "content": "{{Prompt}}"
+      }
+    ]
+  },
+  "responsePath": "choices[0].message.content"
+}

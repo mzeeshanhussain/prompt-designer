@@ -1,0 +1,21 @@
+{
+  "name": "GPT-4o Mini",
+  "description": "OpenAI's fast and affordable model. Great for most everyday tasks.",
+  "url": "https://api.openai.com/v1/chat/completions",
+  "method": "POST",
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer {{OpenAIToken}}"
+  },
+  "body": {
+    "model": "gpt-4o-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "{{Prompt}}"
+      }
+    ],
+    "temperature": 0.7
+  },
+  "responsePath": "choices[0].message.content"
+}
