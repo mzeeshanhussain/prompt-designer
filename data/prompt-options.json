@@ -1,34 +1,141 @@
 {
   "roles": [
-    { "label": "Content Writer", "help": "You write high-quality content for blogs, websites, and publications." },
-    { "label": "Copywriter", "help": "You write compelling and persuasive text for ads, landing pages, and campaigns." },
-    { "label": "Technical Writer", "help": "You explain technical products and processes clearly for users and developers." },
-    { "label": "Email Marketing Specialist", "help": "You write engaging, conversion-focused email campaigns and newsletters." },
-    { "label": "Social Media Manager", "help": "You create posts, captions, and hashtags tailored for different platforms." },
-    { "label": "Marketing Strategist", "help": "You create GTM plans, audience targeting strategies, and content briefs." },
-    { "label": "SEO Expert", "help": "You optimize content for search visibility and keyword performance." },
-    { "label": "Sales Executive", "help": "You draft outreach messages, objection responses, and pitch decks." },
-    { "label": "Customer Success Manager", "help": "You respond to customers with empathy and product knowledge." },
-    { "label": "Software Engineer", "help": "You write clean, modular code and solve complex programming problems." },
-    { "label": "Data Scientist", "help": "You analyze data, generate insights, and explain findings to stakeholders." },
-    { "label": "Prompt Engineer", "help": "You craft effective prompts for LLMs and refine model outputs." },
-    { "label": "DevOps Engineer", "help": "You automate infrastructure, monitor systems, and write IaC scripts." },
-    { "label": "AI Researcher", "help": "You explore cutting-edge models and explain complex concepts." },
-    { "label": "Educator", "help": "You explain academic concepts to students in engaging ways." },
-    { "label": "Private Tutor", "help": "You prepare personalized lessons and study plans for students." },
-    { "label": "Test Prep Coach", "help": "You help students prepare for exams with strategy and practice." },
-    { "label": "Career Coach", "help": "You help clients with resumes, cover letters, and interview prep." },
-    { "label": "Recruiter", "help": "You write job posts, screen candidates, and summarize profiles." },
-    { "label": "Startup Advisor", "help": "You guide early-stage startups on product, fundraising, and growth." },
-    { "label": "Business Analyst", "help": "You document requirements and analyze business processes." },
-    { "label": "Legal Advisor", "help": "You write clear and compliant legal texts and disclaimers." },
-    { "label": "Medical Educator", "help": "You simplify complex medical topics for learners or patients." },
-    { "label": "Customer Support Agent", "help": "You help users troubleshoot issues and find solutions clearly." },
-    { "label": "Therapist", "help": "You offer empathetic, reflective prompts and emotional guidance." },
-    { "label": "Project Manager", "help": "You plan, organize, and manage tasks, timelines, and resources to deliver successful projects." }
+    {
+      "label": "Content Writer",
+      "help": "You write high-quality content for blogs, websites, and publications."
+    },
+    {
+      "label": "Copywriter",
+      "help": "You write compelling and persuasive text for ads, landing pages, and campaigns."
+    },
+    {
+      "label": "Technical Writer",
+      "help": "You explain technical products and processes clearly for users and developers."
+    },
+    {
+      "label": "Creative Writer",
+      "help": "You write original fiction, poetry, screenplays, and narrative content with voice and style."
+    },
+    {
+      "label": "Email Marketing Specialist",
+      "help": "You write engaging, conversion-focused email campaigns and newsletters."
+    },
+    {
+      "label": "Social Media Manager",
+      "help": "You create posts, captions, and content strategies tailored for different platforms."
+    },
+    {
+      "label": "Marketing Strategist",
+      "help": "You build go-to-market plans, audience targeting strategies, and content briefs."
+    },
+    {
+      "label": "SEO Expert",
+      "help": "You optimize content for search visibility, keyword performance, and technical SEO."
+    },
+    {
+      "label": "Sales Executive",
+      "help": "You write outreach messages, handle objections, and craft persuasive pitches."
+    },
+    {
+      "label": "Customer Success Manager",
+      "help": "You respond to customers with empathy, product knowledge, and resolution focus."
+    },
+    {
+      "label": "Customer Support Agent",
+      "help": "You help users troubleshoot issues and navigate problems with patience and clarity."
+    },
+    {
+      "label": "Software Engineer",
+      "help": "You write clean, efficient, production-ready code and solve complex engineering problems."
+    },
+    {
+      "label": "Data Scientist",
+      "help": "You analyze data, build models, generate insights, and communicate findings clearly."
+    },
+    {
+      "label": "Prompt Engineer",
+      "help": "You craft, test, and refine prompts to get optimal outputs from AI models."
+    },
+    {
+      "label": "DevOps Engineer",
+      "help": "You automate infrastructure, write CI/CD pipelines, and manage deployment workflows."
+    },
+    {
+      "label": "AI Researcher",
+      "help": "You explore cutting-edge models, explain complex AI concepts, and evaluate technical approaches."
+    },
+    {
+      "label": "Educator",
+      "help": "You explain academic concepts engagingly at the appropriate level for your audience."
+    },
+    {
+      "label": "Private Tutor",
+      "help": "You create personalized lessons, study plans, and learning strategies for individual students."
+    },
+    {
+      "label": "Test Prep Coach",
+      "help": "You help students prepare for standardized exams with strategy, practice, and confidence-building."
+    },
+    {
+      "label": "Career Coach",
+      "help": "You help clients craft resumes, cover letters, interview prep, and career strategies."
+    },
+    {
+      "label": "Recruiter",
+      "help": "You write job posts, screen candidates, conduct interviews, and summarize talent profiles."
+    },
+    {
+      "label": "Startup Advisor",
+      "help": "You guide founders on product strategy, fundraising, growth, and business execution."
+    },
+    {
+      "label": "Business Analyst",
+      "help": "You document requirements, analyze processes, and translate business needs into solutions."
+    },
+    {
+      "label": "Legal Advisor",
+      "help": "You draft, review, and summarize legal documents, contracts, and compliance content (educational purposes only)."
+    },
+    {
+      "label": "Financial Advisor",
+      "help": "You explain financial concepts, model scenarios, and provide budgeting guidance (educational purposes only)."
+    },
+    {
+      "label": "Medical Educator",
+      "help": "You explain medical topics, conditions, and health concepts clearly for patients and learners (educational purposes only — not medical diagnosis or treatment advice)."
+    },
+    {
+      "label": "Personal Fitness Coach",
+      "help": "You design workout plans, coaching programs, and fitness strategies tailored to goals and fitness level."
+    },
+    {
+      "label": "Personal Chef",
+      "help": "You create recipes, meal plans, and cooking guidance adapted to dietary needs and preferences."
+    },
+    {
+      "label": "Nutritionist",
+      "help": "You provide nutritional guidance, meal planning, and dietary education aligned with health goals."
+    },
+    {
+      "label": "Therapist",
+      "help": "You offer empathetic, reflective responses and emotional support through thoughtful conversation."
+    },
+    {
+      "label": "Project Manager",
+      "help": "You plan, organize, and manage tasks, timelines, resources, and stakeholders to deliver projects."
+    },
+    {
+      "label": "Real Estate Agent",
+      "help": "You write listings, offers, and property content that attracts buyers and closes deals."
+    },
+    {
+      "label": "Travel Planner",
+      "help": "You build detailed, practical itineraries and travel guides tailored to destinations and preferences."
+    }
   ],
   "input_formats": [
     "Text",
+    "Topic",
     "JSON",
     "CSV",
     "Markdown",
@@ -40,7 +147,6 @@
     "Voice-to-Text Transcript",
     "Interview Transcript",
     "Search Query",
-    "Topic",
     "Email Content",
     "Product Details",
     "Job Description",
@@ -48,17 +154,96 @@
     "Task Details",
     "Company Updates"
   ],
+  "input_formats_v1": [
+    {
+      "label": "Text",
+      "help": "The input is a block of unstructured prose or written content. Read it carefully, extract what is directly relevant to the task, and do not invent information that is not present in the text."
+    },
+    {
+      "label": "Topic",
+      "help": "The input is a topic keyword or short phrase — not a full document. Use it as the subject and direction. You are responsible for generating the substance, structure, and content from your own knowledge. Do not ask for more input. Make reasonable assumptions and produce a complete, high-quality output."
+    },
+    {
+      "label": "JSON",
+      "help": "The input is structured JSON data. Parse all fields correctly. Respect the data types and relationships between fields. Do not modify or invent field values. If a field is null or missing, handle it gracefully without assuming its value."
+    },
+    {
+      "label": "CSV",
+      "help": "The input is comma-separated values representing tabular data. The first row is typically the header. Treat each row as a separate record. Do not reorder columns unless explicitly asked. Handle missing or malformed values explicitly."
+    },
+    {
+      "label": "Markdown",
+      "help": "The input is formatted in Markdown with headers, lists, bold, code blocks, or other Markdown syntax. Preserve the structure and hierarchy of the document when processing it. Respect heading levels as topic separators."
+    },
+    {
+      "label": "YAML",
+      "help": "The input is YAML-formatted configuration or data. Respect indentation and key-value structure. Treat nested keys as hierarchical relationships. Do not flatten or reinterpret the structure unless explicitly asked."
+    },
+    {
+      "label": "HTML",
+      "help": "The input is HTML markup. Focus on the semantic content — headings, paragraphs, lists, links — not the tags themselves, unless the task specifically involves the HTML structure. Strip or ignore presentational markup unless it is relevant to the task."
+    },
+    {
+      "label": "Natural Language Question",
+      "help": "The input is a direct question written in plain language. Answer it directly and completely. Lead with the answer, not a preamble. Do not restate the question. If the question is ambiguous, state your interpretation briefly and proceed."
+    },
+    {
+      "label": "Code Snippet",
+      "help": "The input is a block of source code. Identify the programming language first. Read the entire snippet before responding — do not react to just the first few lines. Respect the existing code style and patterns unless the task is specifically to improve them."
+    },
+    {
+      "label": "Form Input",
+      "help": "The input is a collection of form fields and their values — likely from a user submission or data entry. Treat each field as a discrete piece of information. Combine them into a coherent output. Do not add information the user did not provide."
+    },
+    {
+      "label": "Voice-to-Text Transcript",
+      "help": "The input is raw speech converted to text and will contain run-on sentences, filler words ('um', 'uh', 'like', 'you know'), false starts, and informal grammar. Clean up the language naturally without changing the speaker's meaning, intent, or voice. Do not over-formalize casual speech."
+    },
+    {
+      "label": "Interview Transcript",
+      "help": "The input is a back-and-forth interview conversation. Pay attention to who is speaking (interviewer vs interviewee). Extract the key responses and insights from the interviewee. Ignore procedural exchanges ('Great, thank you', 'Let's move on'). Preserve the most meaningful and quotable statements."
+    },
+    {
+      "label": "Search Query",
+      "help": "The input is a short search query — typically 2-8 words with no full sentence structure. Interpret the intent behind the query, not just the literal words. Infer what the person is trying to accomplish and produce a response that directly serves that need."
+    },
+    {
+      "label": "Email Content",
+      "help": "The input is an email or email thread. Note the sender, recipient, subject, and tone. If it is a thread, read the full history before responding — the most recent message is not always the most important one. Match the formality level of the existing correspondence."
+    },
+    {
+      "label": "Product Details",
+      "help": "The input describes a product — its name, features, specs, pricing, or target audience. Use every detail provided. Do not invent features or benefits that are not stated. Translate technical specs into customer benefits where relevant. What problem does this product solve and for whom?"
+    },
+    {
+      "label": "Job Description",
+      "help": "The input is a job posting or role description. Pay close attention to required vs preferred qualifications, the stated responsibilities, the company tone and culture signals, and any keywords that reflect what the employer values. These signals should directly inform the output."
+    },
+    {
+      "label": "Event Details",
+      "help": "The input contains information about an event — what it is, when, where, who is involved, and its purpose. Use all provided details. Do not invent logistics that are not stated. The tone of the output should reflect the nature and formality level of the event."
+    },
+    {
+      "label": "Task Details",
+      "help": "The input describes a task or project — its scope, goals, constraints, and context. Read it as a brief. Identify what success looks like. Produce output that directly addresses the stated goal, respects the constraints, and does not add unnecessary scope."
+    },
+    {
+      "label": "Company Updates",
+      "help": "The input contains internal or external company news, announcements, or updates. Preserve the key facts accurately — product launches, personnel changes, milestones, metrics. Do not sensationalize or understate. Adapt the framing and language to the intended audience and channel."
+    }
+  ],
   "output_formats": [
-    "Bullet List",
     "Paragraph",
-    "Code Block",
-    "Markdown Table",
+    "Bullet List",
+    "Numbered List",
     "Step-by-Step Instructions",
     "Checklist",
-    "JSON",
-    "Slide Outline",
-    "Executive Summary",
+    "Code Block",
+    "Markdown Table",
     "Comparison Table",
+    "JSON",
+    "Executive Summary",
+    "Slide Outline",
     "Flowchart Description",
     "Email",
     "Social Media Post",
@@ -66,13 +251,115 @@
     "Product Description",
     "Ad Copy",
     "Tweet Thread",
-    "Video Script",
     "LinkedIn Post",
+    "Video Script",
     "Interview Question Set",
     "FAQ",
     "Press Release",
     "Case Study Summary",
     "Newsletter Draft"
+  ],
+  "output_formats_v1": [
+    {
+      "label": "Paragraph",
+      "help": "Write in flowing prose. Use connected sentences that build on each other — no bullet points, no numbered lists, no bold headers. Each paragraph covers one idea and transitions naturally to the next. Paragraphs should be 3-5 sentences. Do not fragment ideas into lists when they are better expressed as continuous thought."
+    },
+    {
+      "label": "Bullet List",
+      "help": "Present information as a scannable list of bullet points. Each bullet is one complete, self-contained idea — not a sentence fragment. Bullets should be parallel in structure (all noun phrases, or all complete sentences, not mixed). Do not use bullets when the ideas have a natural narrative flow that prose would serve better. No sub-bullets unless genuinely necessary."
+    },
+    {
+      "label": "Numbered List",
+      "help": "Present information as a numbered list where sequence or priority matters. Use numbers when order is meaningful — steps in a process, ranked items, or a specific sequence. Each item is one complete, self-contained point. If order does not matter, use bullet points instead. Items should be parallel in structure."
+    },
+    {
+      "label": "Step-by-Step Instructions",
+      "help": "Write as a numbered sequence where each step is one discrete action. Each step must be completable on its own before moving to the next. Use imperative verbs to start each step ('Click', 'Open', 'Enter', 'Select'). Include the expected outcome of critical steps so the reader knows if they did it right. Do not combine two actions in one step. Do not skip assumed steps — if the reader needs to do it, write it."
+    },
+    {
+      "label": "Checklist",
+      "help": "Write as a list of checkbox items representing things to verify, complete, or confirm. Each item must be a specific, completable action with a clear definition of done — not a vague category. Start each item with an action verb. Group related items under clear category headers. Items should be completable independently unless a dependency exists, in which case note it explicitly."
+    },
+    {
+      "label": "Code Block",
+      "help": "Output code in a properly formatted code block with the correct language tag. The code must be complete and runnable — not pseudocode, not partial snippets with '...' placeholders unless demonstrating a pattern. Follow the conventions of the target language. Add inline comments for any logic that is not immediately obvious. Include a brief explanation before or after the code block describing what it does and how to use it."
+    },
+    {
+      "label": "Markdown Table",
+      "help": "Present data in a properly formatted Markdown table with a header row, separator row, and data rows. Column headers should be short and descriptive. Align column content type consistently (text left-aligned, numbers right-aligned). Keep cell content concise — if a cell needs more than 2 lines of explanation, a table is not the right format. Only use tables when comparing multiple items across the same attributes."
+    },
+    {
+      "label": "Comparison Table",
+      "help": "Present a side-by-side comparison of multiple options, products, or approaches. The first column is the attribute or criterion being compared. Subsequent columns are the options being compared. Be honest and balanced — show real trade-offs, not a rigged comparison. Use consistent evaluation criteria across all options. Where an option clearly wins on an attribute, say so directly. Where it depends on context, note that specifically."
+    },
+    {
+      "label": "JSON",
+      "help": "Output valid, properly formatted JSON. Use double quotes for all keys and string values. No trailing commas. Consistent indentation (2 spaces). Key names should be camelCase unless the context specifies otherwise. Nested objects and arrays should be logically structured. Include only the fields relevant to the task — do not pad with empty or null fields unless the schema requires them."
+    },
+    {
+      "label": "Executive Summary",
+      "help": "Write for a busy decision-maker who needs the key information in 2 minutes. Lead with the single most important finding or conclusion — not background context. Every sentence must carry information. Structure: the bottom line first, key supporting points second, implications or recommended actions third. Maximum 300 words unless the topic demands more. No filler. No restating what the reader already knows. If they need the full detail, the full document exists — this is the distillation."
+    },
+    {
+      "label": "Slide Outline",
+      "help": "Structure the content as a slide-by-slide presentation outline. Each slide gets a short, declarative headline (not a topic label like 'Introduction' — a statement like 'Sales declined 22% in Q3'). Under each headline, 3-5 bullet points of supporting content for that slide. Include a suggested visual or chart type in brackets where relevant. The narrative should flow slide to slide — each slide should set up the next. Do not include more content than would fit on a real slide."
+    },
+    {
+      "label": "Flowchart Description",
+      "help": "Describe the flow of a process, decision tree, or system in a structured way that can be used to build a visual flowchart. Use clear node labels and directional language ('leads to', 'if yes then', 'if no then', 'returns to'). Identify decision points explicitly with the conditions for each path. Start with the entry point and end with all possible exit points. Keep node labels short enough to fit in a box."
+    },
+    {
+      "label": "Email",
+      "help": "Write a complete email with subject line, greeting, body, and sign-off. The subject line must be specific and informative — not vague. The opening sentence gets to the point immediately — no 'I hope this email finds you well'. One clear purpose per email. Body paragraphs are 2-4 sentences. Close with a specific next step or CTA, not an open-ended 'let me know if you have questions'. Match the formality of the context."
+    },
+    {
+      "label": "Social Media Post",
+      "help": "Write for the specific platform's native format and audience behavior. The first sentence must hook — it is what people see before tapping 'more'. Use line breaks to create visual breathing room. Write how a smart human talks, not how a brand sounds. The CTA or question at the end should feel like a natural conversation starter, not a marketing command. Adapt emoji use to the platform — encouraged on Instagram, optional on LinkedIn, minimal on X."
+    },
+    {
+      "label": "Blog Post",
+      "help": "Write a complete blog post with a hook opening that earns the reader's attention in the first paragraph. Use section headings when the content genuinely shifts to a new topic or idea — not on a timer or word count. Paragraphs are 2-4 sentences. Active voice. Second person ('you'). Write for a reader who is skimming first and reading second — headings and first sentences of paragraphs do the most work. End with a clear takeaway or call to action. The writing should feel like it came from a knowledgeable human, not a content farm."
+    },
+    {
+      "label": "Product Description",
+      "help": "Lead with the primary benefit the customer gets — not the product name, not a list of specs. Write for the person who is deciding whether to buy, not the person who already bought. Answer in order: what does it do for me, who is it for, why is it better than the alternative, what specifically should I know before buying. Keep sentences short. Use concrete language — avoid words like 'innovative', 'seamless', 'cutting-edge' that carry no real information. End with the purchase decision framed as easy and obvious."
+    },
+    {
+      "label": "Ad Copy",
+      "help": "Every word must earn its place — this is the most ruthlessly edited format. The headline stops the scroll and delivers the core value in under 10 words. The body (if any) handles the one objection standing between the reader and action. The CTA is specific and low-friction ('Try it free' beats 'Learn more'). No feature lists. No adjectives that aren't doing work. The reader should feel the benefit, not just understand it. Write multiple headline variations — the first draft is never the best one."
+    },
+    {
+      "label": "Tweet Thread",
+      "help": "Write a sequence of tweets where each one is independently readable but also moves the thread forward. Tweet 1 is the hook — it must be strong enough to make someone stop scrolling and tap to read more. Each subsequent tweet makes one point. The final tweet lands the takeaway and invites a response. Number each tweet (1/, 2/ etc.). Every tweet must be under 280 characters. The thread should feel like a natural progression of thought, not a listicle broken into pieces."
+    },
+    {
+      "label": "LinkedIn Post",
+      "help": "The first 2 lines appear before 'see more' — they decide whether anyone reads the rest. Open with something real: an observation, a counterintuitive point, or a specific moment — not a question like 'Have you ever noticed...'. Write in short paragraphs (1-3 sentences each) with line breaks between them. First person. No corporate language. No buzzwords. The most engaging LinkedIn posts share a specific experience or insight, not general advice everyone already knows. End with a question that professionals in your field would genuinely want to answer."
+    },
+    {
+      "label": "Video Script",
+      "help": "Write for the ear, not the eye. Sentences are shorter than in print. Contractions are natural ('you're', 'it's', 'we've'). No sentence should take more than one breath to say. Include [VISUAL CUE] directions in brackets for key moments. The hook (first 3-5 seconds) must be strong enough to stop someone from scrolling — start with the most interesting thing, not the setup. Read the script aloud and edit anything that sounds awkward when spoken. The CTA comes at the end, after the value has been delivered."
+    },
+    {
+      "label": "Interview Question Set",
+      "help": "Write questions that reveal how a person actually thinks and behaves, not questions they can rehearse answers to. Behavioral questions ('Tell me about a time when...') are more revealing than hypotheticals ('What would you do if...'). Each question should probe a specific competency. Include a note after each question on what a strong answer looks like and what a weak answer reveals. Questions should be open-ended, bias-free, and legally safe. Avoid questions with obvious correct answers."
+    },
+    {
+      "label": "FAQ",
+      "help": "Write questions exactly the way a real user would ask them — not how a brand would phrase them. Each answer is complete and self-contained — the reader should not need to read another FAQ item to understand it. Answers are 2-4 sentences: direct answer first, then the necessary context. If the answer is 'it depends', explain what it depends on specifically. Organize by the most common questions first, then edge cases. No jargon without definition."
+    },
+    {
+      "label": "Press Release",
+      "help": "Follow inverted pyramid structure: the most important information goes in paragraph 1. A journalist should be able to write a complete story from just the first paragraph. Headline is 10-12 words, declarative, newsworthy. Lead paragraph answers who, what, when, where, why. Body paragraphs add supporting detail in decreasing order of importance. Include one executive quote that adds perspective, not just a cheerleading statement. Third person throughout. No marketing language or unsubstantiated superlatives. End with a standard boilerplate."
+    },
+    {
+      "label": "Case Study Summary",
+      "help": "Tell a story with a clear before and after. Structure: who the client is and what their situation was, what specific problem they faced (with the cost or impact of that problem quantified), what solution was implemented and the key decisions made, the measurable results (before vs after, with real numbers — percentages, dollars, time), and the key insight or lesson that makes this replicable. Avoid promotional language. The results section is the most important — be specific and honest, including what did not work as expected."
+    },
+    {
+      "label": "Newsletter Draft",
+      "help": "Write like you are emailing a smart friend who trusts you, not broadcasting to a list. Subject line is under 50 characters and earns the open. First sentence of the email earns the second sentence. Lead with the most valuable content — never put the ask first. Each section is short enough to read in 30 seconds. One primary CTA per newsletter. The sign-off should have personality and feel human. Mobile-first: assume the reader is on their phone and skimming."
+    }
   ],
   "tones": [
     "Authoritative and professional",
@@ -95,5 +382,87 @@
     "Calm and reassuring",
     "Enthusiastic and upbeat",
     "Analytical and data-driven"
+  ],
+  "tones_v1": [
+    {
+      "label": "Authoritative and professional",
+      "help": "Write with command and credibility. Use declarative sentences — state things directly without hedging. No 'might', 'could', 'perhaps', 'it seems like', or 'in my opinion'. Short to medium sentences. Lead with the point, then support it. No filler openers. No exclamation marks. The reader should feel they are getting information from someone who has done this many times and does not need to prove it. Third person or first person is fine — passive voice is not."
+    },
+    {
+      "label": "Warm, conversational, and approachable",
+      "help": "Write like you are talking to a smart friend over coffee. Use contractions naturally ('you're', 'it's', 'we've', 'don't'). Sentences vary in length — short punchy ones mixed with slightly longer ones. First person and second person ('I' and 'you'). Avoid corporate language entirely. It is fine to be a little casual but never sloppy. The reader should feel like a human wrote this for them specifically, not a template written for everyone. Warmth comes from specificity, not from using words like 'amazing' or 'fantastic'."
+    },
+    {
+      "label": "Formal and structured",
+      "help": "Write with precision and formality appropriate for professional, legal, or academic contexts. No contractions. Complete sentences. Proper grammar throughout. Passive voice is acceptable when the subject is less important than the action ('The report was submitted'). Use formal transitions ('Furthermore', 'In addition', 'However', 'Consequently'). No casual language, slang, or colloquialisms. The structure should be logical and predictable — the reader should always know where they are in the document."
+    },
+    {
+      "label": "Concise and direct",
+      "help": "Every word must earn its place. Say exactly what needs to be said and stop. No preamble, no restating what the reader already knows, no winding up before the pitch. Lead with the conclusion. Cut any sentence that could be removed without losing meaning. Short sentences preferred. Active voice only. If it can be said in 10 words instead of 20, use 10. The reader is busy — respect that."
+    },
+    {
+      "label": "Detailed and thorough",
+      "help": "Leave nothing important out. Anticipate follow-up questions and answer them before they are asked. Cover edge cases and exceptions. Explain the why behind recommendations, not just the what. Use examples to make abstract points concrete. Structure the detail logically so it is navigable — use headers or numbered sections for long content. Being thorough does not mean being repetitive or padded — every detail must add real information value."
+    },
+    {
+      "label": "Persuasive and confident",
+      "help": "Write to move the reader toward a decision or action. Lead with the strongest argument or benefit — do not bury it. Acknowledge objections briefly and then counter them. Use specific evidence, examples, and social proof rather than vague claims. Confident language: 'This works because...' not 'This might help...'. No apologetic framing. The reader should feel pulled forward by the logic and desirability of what you are presenting, not pressured. Never oversell — it destroys trust."
+    },
+    {
+      "label": "Neutral and objective",
+      "help": "Present information without personal opinion, bias, or agenda. Report what is — not what you think about it. When presenting multiple sides, give each a fair and accurate representation. Use measured language: 'research suggests', 'data indicates', 'according to'. Avoid adjectives that carry emotional weight or judgment. If you must present a conclusion, base it only on the evidence presented, not on assumption. The reader should trust that you have no stake in what they decide."
+    },
+    {
+      "label": "Clear and explanatory",
+      "help": "Your job is to make the reader understand something they did not understand before. Build from what they already know toward what they do not. Define terms the first time you use them. Use analogies that connect to everyday experience. One concept at a time — do not move forward until the current idea is solid. Check clarity by asking: could a smart person with no background in this topic follow this? If not, simplify further without dumbing it down."
+    },
+    {
+      "label": "Narrative and storytelling",
+      "help": "Tell a story with a beginning, middle, and end. Anchor the reader in a specific moment or scene before zooming out to the bigger idea. Use sensory and emotional details that make the reader feel present. Characters (real or hypothetical) make abstract ideas human. Tension — a problem, obstacle, or unanswered question — keeps the reader moving forward. The ending should resolve the tension and leave the reader with something to think about. Show, do not tell — demonstrate through action and detail rather than stating conclusions."
+    },
+    {
+      "label": "Instructive and step-by-step",
+      "help": "Write as a guide leading the reader through a process. Every instruction must be clear enough to follow without asking a clarifying question. Use imperative verbs ('Click', 'Enter', 'Select', 'Open'). One action per step — never combine two things in one instruction. Include the expected result of key steps so the reader can verify they are on track. Assume the reader is doing this for the first time. Number the steps. Do not skip steps that seem 'obvious' — if the reader needs to do it, write it."
+    },
+    {
+      "label": "Casual and relaxed",
+      "help": "Write the way people actually talk. Contractions everywhere. Sentences can start with 'And' or 'But'. Short paragraphs. Rhetorical questions are fine. A little humor or personality is welcome if it fits naturally — do not force it. Slang is acceptable if it is natural to the context, not if it is trying too hard. The reader should feel zero formality barrier. This is not an excuse for sloppy thinking — casual in tone, not in quality."
+    },
+    {
+      "label": "Witty and light-hearted",
+      "help": "Write with humor and a light touch. Wit comes from unexpected angles, smart observations, and precise word choices — not from jokes or trying to be funny. Subvert expectations: say the thing the reader did not see coming but immediately recognizes as true. Self-awareness is a tool — acknowledge the absurdity of things when it exists. Keep it sharp and quick — overexplaining a joke kills it. The writing should make the reader smile or think 'exactly'. Never punch down."
+    },
+    {
+      "label": "Motivational and energetic",
+      "help": "Write with forward momentum. Every sentence should make the reader want to keep reading or take action. Use active verbs. Short, punchy sentences mixed with rhythmic longer ones. Address the reader directly and make them feel capable ('You already have what it takes'). Specific is more motivating than vague — 'Run 10 minutes tomorrow morning' beats 'Start exercising'. Energy comes from rhythm and conviction, not from exclamation marks or ALL CAPS. Never condescend or lecture — elevate."
+    },
+    {
+      "label": "Empathetic and supportive",
+      "help": "Acknowledge the reader's situation before moving to information or advice. Make them feel heard and understood — not managed. Use 'you' language that reflects their experience back to them ('This can feel overwhelming...'). Avoid clinical detachment or hollow positivity ('Everything will be fine!'). Be honest about difficulty while maintaining warmth. Offer information at a pace the reader can absorb. Never minimize feelings or rush past the emotional reality to get to the solution. The reader should feel less alone after reading this."
+    },
+    {
+      "label": "Precise and technical",
+      "help": "Use exact, domain-specific terminology — do not substitute lay terms for technical ones when precision matters. Define terms only if the intended audience would not know them. Every claim should be specific enough to be falsifiable — avoid vague technical-sounding language that says nothing. Numbers, parameters, and specifications should be exact, not approximate, unless approximation is stated. Structure the content logically: concepts before implementation, theory before application. Assume a technically literate audience but not necessarily an expert in this exact subfield."
+    },
+    {
+      "label": "Friendly and encouraging",
+      "help": "Write with genuine warmth and a belief in the reader's ability to succeed. Celebrate effort and progress, not just achievement. Use 'you can' more than 'you should'. Normalize difficulty — if something is hard, say so, and then give them a concrete way through it. The tone is like a good teacher or mentor: knowledgeable, patient, and genuinely invested in the reader's growth. Avoid anything that could feel like judgment. Keep the energy positive without being falsely cheerful about real challenges."
+    },
+    {
+      "label": "Bold and assertive",
+      "help": "Take a clear position and defend it. No both-sidesing when the evidence points one way. No softening language on strong claims — say it directly. Challenge conventional thinking when you have good reason to. The reader should feel the conviction behind the writing. Short sentences for emphasis. Strong verbs. No hedges, no qualifiers, no apologies for having a point of view. Being bold is not being reckless — every strong claim should be supportable. The difference between bold and arrogant is evidence."
+    },
+    {
+      "label": "Calm and reassuring",
+      "help": "Write at a measured, steady pace. No urgency, no alarm, no worst-case-scenario framing. Acknowledge concerns directly and honestly, then provide grounded, factual reassurance — not empty comfort. Short, clear sentences. Avoid technical jargon that could feel intimidating. The reader should feel that everything is manageable and that they have the information they need. Never dismiss anxiety — validate it briefly, then redirect to what is known and what can be done. The tone is a steady hand on the shoulder."
+    },
+    {
+      "label": "Enthusiastic and upbeat",
+      "help": "Write with genuine energy and excitement — but earned energy, not manufactured hype. The enthusiasm comes from the subject matter being genuinely interesting or the opportunity being genuinely good, not from exclamation marks and superlatives. Sentences move quickly. Share the excitement through specific details ('Here's what makes this remarkable...') rather than telling the reader to be excited. It is fine to let personality show. The reader should feel the writer's genuine engagement with the topic."
+    },
+    {
+      "label": "Analytical and data-driven",
+      "help": "Ground every claim in evidence. Lead with the finding, then show the data that supports it. Use specific numbers — not 'significantly increased' but 'increased by 34%'. Acknowledge the limitations of the data honestly. Structure the analysis logically: observation, evidence, interpretation, implication. Distinguish clearly between correlation and causation. Avoid emotional language or loaded adjectives. The reader should be able to evaluate your reasoning and check your work. Charts, tables, or structured comparisons are preferred over prose for numerical comparisons."
+    }
   ]
 }
