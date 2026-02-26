@@ -3,10 +3,13 @@
   "OpenAI-GPT4o.json",
   "Gemini-Flash.json",
   "Gemini-Pro.json",
+  "Groq-Llama8b.json",
+  "Groq-Llama70b.json",
   "Claude-Haiku.json",
   "Claude-Sonnet.json",
   "Mistral-Small.json",
   "Mistral-Large.json",
   "pinkfish.json",
   "zapier.json"
+  
 ]

@@ -1,0 +1,21 @@
+{
+  "name": "Groq Llama 8b",
+  "description": "Send a prompt to Groq's API using llama-3.1-8b-instant. Ultra-fast inference, lightweight tasks.",
+  "url": "https://api.groq.com/openai/v1/chat/completions",
+  "method": "POST",
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer {{GroqToken}}"
+  },
+  "body": {
+    "model": "llama-3.1-8b-instant",
+    "messages": [
+      {
+        "role": "user",
+        "content": "{{Prompt}}"
+      }
+    ],
+    "temperature": 0.7
+  },
+  "responsePath": "choices[0].message.content"
+}
