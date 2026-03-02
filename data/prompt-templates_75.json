@@ -1,0 +1,802 @@
+[
+  {
+    "id": "linkedin-post-001",
+    "name": "LinkedIn Post — Thought Leadership",
+    "role": "Social Media Manager",
+    "goal": "Create a professional LinkedIn post for executives and thought leaders. Open with a compelling hook or counterintuitive insight that stops the scroll. Build it like this: 3-5 short paragraphs (not bullets), include a personal story or specific data point, one clear key takeaway, and a thought-provoking question to drive engagement. Non-negotiables: no emojis, no hashtags in body (max 3 at end), avoid clickbait, 150-300 words. End with a clear call-to-action or discussion prompt. Do not: sales language, buzzwords like 'game-changer' or 'disruptive', em dashes, generic advice anyone could have written.",
+    "input_format": "Topic",
+    "output_format": "LinkedIn Post",
+    "tone": "Authoritative and professional",
+    "additional_instructions": ""
+  },
+  {
+    "id": "linkedin-post-002",
+    "name": "LinkedIn Post — New Job Announcement",
+    "role": "Social Media Manager",
+    "goal": "Write a genuine, non-cringe LinkedIn post announcing a new job or role. Avoid the typical 'I'm thrilled to announce' opener — start with something real, like what drew you to the role or what you're walking away from. Build it like this: personal hook (1-2 sentences), what the new role is and company (1 sentence), what excites you about it (2-3 sentences with specifics), who you want to thank (brief, not a Grammy speech), optional call-to-action. Non-negotiables: 100-200 words, first-person, no corporate speak, no emojis, authentic tone. Do not: hollow gratitude, name-dropping for clout, making it about your resume.",
+    "input_format": "Text",
+    "output_format": "LinkedIn Post",
+    "tone": "Warm, conversational, and approachable",
+    "additional_instructions": ""
+  },
+  {
+    "id": "linkedin-post-003",
+    "name": "LinkedIn Post — Lesson Learned",
+    "role": "Social Media Manager",
+    "goal": "Write a LinkedIn post sharing a hard-earned professional lesson in a way that feels real and relatable, not preachy. Open with the mistake or failure, not the lesson. Build it like this: what happened (2-3 sentences, specific details), what you thought at the time, what you learned and why it matters (the actual insight — not vague), one piece of advice for others in the same position. Non-negotiables: 200-250 words, first-person, conversational, no emojis, no listicles. The lesson should be specific and non-obvious — not 'work hard' or 'be resilient'. Do not: humble bragging disguised as vulnerability, vague lessons, generic advice.",
+    "input_format": "Topic",
+    "output_format": "LinkedIn Post",
+    "tone": "Narrative and storytelling",
+    "additional_instructions": ""
+  },
+  {
+    "id": "linkedin-post-004",
+    "name": "LinkedIn Post — Industry Insight",
+    "role": "Marketing Strategist",
+    "goal": "Write a data-driven LinkedIn post sharing a sharp industry insight or trend observation. Lead with a bold statement or surprising statistic. Build it like this: bold opening claim (1 sentence), evidence and context (2-3 sentences), implication for practitioners, your specific take on what it means, question for the audience. Non-negotiables: 150-250 words, no emojis, include at least one specific data point or real-world example, max 3 hashtags at end. The insight must be specific enough that someone in the industry would learn something — not something everyone already knows. Do not: recycled talking points, vague observations, em dashes.",
+    "input_format": "Topic",
+    "output_format": "LinkedIn Post",
+    "tone": "Analytical and data-driven",
+    "additional_instructions": ""
+  },
+  {
+    "id": "email-response-005",
+    "name": "Respond to a Business Email",
+    "role": "Email Marketing Specialist",
+    "goal": "Draft a polite, professional, and effective email response for business communication. Build it like this: professional greeting, acknowledge the sender's message or question, provide a clear and specific response with details, outline next steps or action items if applicable, professional closing. Non-negotiables: 150-300 words, no emojis, avoid contractions in formal contexts, match the sender's formality level. Make sure to include: specific answers to questions asked, clear timelines for follow-ups. Do not: overly casual language, multiple exclamation marks, vague closings like 'Let me know if you need anything'.",
+    "input_format": "Email Content",
+    "output_format": "Email",
+    "tone": "Formal and structured",
+    "additional_instructions": ""
+  },
+  {
+    "id": "email-cold-outreach-006",
+    "name": "Cold Outreach Email",
+    "role": "Sales Executive",
+    "goal": "Write a cold outreach email that gets opened and replied to. The goal is not to sell — it is to start a conversation. Build it like this: subject line (under 8 words, no 'quick question'), opening that shows you did research (1-2 sentences specific to the recipient), the one problem you help solve (1 sentence), a low-pressure CTA (ask for a specific, easy thing). Non-negotiables: total body under 120 words, no attachments mentioned, no corporate buzzwords. Use second person, active voice. The email should feel like a message from a sharp human, not a template blast. Do not: 'I hope this email finds you well', 'I wanted to reach out', feature lists, asking for 30 minutes right away.",
+    "input_format": "Text",
+    "output_format": "Email",
+    "tone": "Concise and direct",
+    "additional_instructions": ""
+  },
+  {
+    "id": "email-follow-up-007",
+    "name": "Follow-Up Email After No Reply",
+    "role": "Sales Executive",
+    "goal": "Write a follow-up email for when a previous message went unanswered. The tone must not be passive-aggressive or guilt-tripping. Build it like this: reference the previous email in one line, add one new piece of value or reason they should care (new stat, new angle, different benefit), a single easy CTA. Non-negotiables: under 80 words, no 'I just wanted to follow up', no 'Did you get a chance to...', no guilt. This is a second bite at the apple, not a complaint. Add one new thing they haven't heard before. Do not: 'bumping this to the top of your inbox', repeating the original email, sounding desperate.",
+    "input_format": "Email Content",
+    "output_format": "Email",
+    "tone": "Concise and direct",
+    "additional_instructions": ""
+  },
+  {
+    "id": "blog-post-008",
+    "name": "SEO Blog Post",
+    "role": "Content Writer",
+    "goal": "Write an engaging, SEO-optimized blog post for a general audience. Build it like this: compelling hook in the first paragraph (lead with a problem, question, or surprising fact), H2/H3 subheadings used when the topic genuinely shifts to a new section or idea (not on a word count timer), 3-5 main sections, an actionable conclusion with a call-to-action. Non-negotiables: 800-1200 words, 8th grade readability, no emojis, active voice, second person ('you'). Make sure to include: 2-3 concrete examples, practical takeaways, transition sentences between sections, natural placement of the target keyword. Use short paragraphs (3-4 sentences max). Do not: walls of text, em dashes, jargon without explanation, starting with 'In today's fast-paced world'.",
+    "input_format": "Topic",
+    "output_format": "Blog Post",
+    "tone": "Friendly and encouraging",
+    "additional_instructions": ""
+  },
+  {
+    "id": "blog-post-listicle-009",
+    "name": "Listicle Blog Post",
+    "role": "Content Writer",
+    "goal": "Write a high-value numbered listicle blog post. Each item must deliver genuine value — not filler. Build it like this: catchy headline with the number included, brief intro (100 words max), numbered items each with a bold sub-heading, 80-120 words of explanation, and a concrete example or tip. End with a brief conclusion and CTA. Non-negotiables: 7-15 items, 1000-1500 words total, second person ('you'), active voice. Every item must be specific and actionable — not vague advice like 'be consistent'. Make sure to include: at least 3 examples or mini case studies woven in. Do not: padding, obvious advice, all items being equal weight (some should be more surprising than others).",
+    "input_format": "Topic",
+    "output_format": "Blog Post",
+    "tone": "Casual and relaxed",
+    "additional_instructions": ""
+  },
+  {
+    "id": "cover-letter-010",
+    "name": "Cover Letter — General Application",
+    "role": "Career Coach",
+    "goal": "Write a tailored cover letter that demonstrates fit for the specific role. Build it like this: opening paragraph with position name and a hook explaining genuine interest (not 'I am writing to apply for'), 2-3 paragraphs matching specific experience to job requirements with concrete examples and quantifiable achievements, closing with enthusiasm and a clear CTA. Non-negotiables: 300-400 words, no emojis, no generic templates. Make sure to include: specific company research, concrete examples with metrics (percentages, dollar amounts, team sizes), keywords from the job description. Do not: repeating the resume verbatim, em dashes, clichés like 'team player' or 'hard worker' without evidence.",
+    "input_format": "Job Description",
+    "output_format": "Paragraph",
+    "tone": "Authoritative and professional",
+    "additional_instructions": ""
+  },
+  {
+    "id": "cover-letter-career-change-011",
+    "name": "Cover Letter — Career Change",
+    "role": "Career Coach",
+    "goal": "Write a cover letter for someone switching industries or roles. The biggest challenge is to address the gap confidently, not defensively. Build it like this: open with the transferable value you bring (not an apology for the career change), bridge your past experience to the new role with specific skills and achievements, show genuine knowledge of the new industry, close with enthusiasm and next steps. Non-negotiables: 300-400 words, no emojis, address the career change directly and positively, use the job description keywords. Frame past experience as an asset, not a liability. Do not: 'Although I don't have direct experience in X', starting with the gap, over-explaining the switch.",
+    "input_format": "Job Description",
+    "output_format": "Paragraph",
+    "tone": "Persuasive and confident",
+    "additional_instructions": ""
+  },
+  {
+    "id": "resume-bullet-012",
+    "name": "Rewrite Resume Bullet Points",
+    "role": "Career Coach",
+    "goal": "Rewrite weak resume bullet points into strong, achievement-focused statements using the STAR or CAR format (Context/Action/Result). Each bullet must start with a strong action verb, include a quantified result where possible, and be specific enough that it couldn't have been written by anyone else. Non-negotiables: each bullet 1-2 lines, start with past-tense action verbs (Led, Built, Reduced, Increased, etc.), no personal pronouns, no buzzwords like 'leveraged synergies', include numbers for at least 70% of bullets. Transform vague duties into specific achievements. Do not: 'Responsible for', 'Helped with', 'Worked on', generic verbs like 'managed' without context.",
+    "input_format": "Text",
+    "output_format": "Bullet List",
+    "tone": "Concise and direct",
+    "additional_instructions": ""
+  },
+  {
+    "id": "social-caption-013",
+    "name": "Instagram / Facebook Caption",
+    "role": "Social Media Manager",
+    "goal": "Write an engaging social media caption for Instagram or Facebook that stops the scroll. Build it like this: hook in first sentence (before the 'more' cutoff — under 125 characters), main message in 2-3 sentences, call-to-action or question to drive engagement, line breaks for readability. Non-negotiables: total 150-300 words, emojis encouraged (2-4 relevant ones), include 5-10 relevant hashtags at the end for Instagram. Use relatable, conversational language. The hook must be strong enough to make someone tap 'more'. Do not: starting with the brand name, hashtag stuffing, multiple exclamation marks in a row, em dashes.",
+    "input_format": "Topic",
+    "output_format": "Social Media Post",
+    "tone": "Witty and light-hearted",
+    "additional_instructions": ""
+  },
+  {
+    "id": "tweet-thread-014",
+    "name": "Twitter / X Thread",
+    "role": "Social Media Manager",
+    "goal": "Write an engaging Twitter/X thread with 6-10 tweets. Build it like this: Tweet 1 hooks with a bold statement or counterintuitive claim that makes people want to read more, Tweets 2-8 each develop one clear point with an example, data, or story, final tweet summarizes with a CTA or question. Non-negotiables: each tweet under 280 characters, emojis encouraged (1-2 per tweet), number each tweet (1/, 2/, etc.), include 2-3 relevant hashtags total across the thread. Every tweet must be able to stand alone AND connect to the next. Do not: tweets that are just teases, threads longer than 12, filler content, em dashes.",
+    "input_format": "Topic",
+    "output_format": "Tweet Thread",
+    "tone": "Bold and assertive",
+    "additional_instructions": ""
+  },
+  {
+    "id": "product-description-015",
+    "name": "Product Description — E-Commerce",
+    "role": "Copywriter",
+    "goal": "Write a compelling product description that drives conversions. Build it like this: attention-grabbing opening line that highlights the main benefit (not the feature), 2-3 short paragraphs covering features-as-benefits and specific use cases, key specifications in a scannable bullet list, strong closing that addresses hesitation or creates mild urgency. Non-negotiables: 150-250 words, customer-first perspective, no emojis. Answer: who is this for, what problem does it solve, why is it better. Do not: leading with technical specs, generic descriptions that could be any product, unsubstantiated claims, em dashes.",
+    "input_format": "Product Details",
+    "output_format": "Product Description",
+    "tone": "Persuasive and confident",
+    "additional_instructions": ""
+  },
+  {
+    "id": "article-summary-016",
+    "name": "Article / Document Summary",
+    "role": "Content Writer",
+    "goal": "Provide a concise executive summary of the provided article or document for busy professionals. Build it like this: one opening sentence stating the main thesis or purpose, 3-4 key points with supporting evidence or data, conclusion with practical implications or recommended actions. Non-negotiables: 200-300 words, factually accurate, no opinions unless clearly labeled, no emojis, paraphrase rather than quote. Make sure to include: specific data, statistics, and the author's main arguments. Do not: direct quotes (paraphrase instead), personal interpretation, em dashes.",
+    "input_format": "Text",
+    "output_format": "Executive Summary",
+    "tone": "Neutral and objective",
+    "additional_instructions": ""
+  },
+  {
+    "id": "meeting-notes-017",
+    "name": "Summarize Meeting Notes",
+    "role": "Business Analyst",
+    "goal": "Summarize raw meeting notes into a clean, actionable format for team distribution. Build it like this: brief context (meeting purpose, attendees, date), key discussion points organized by topic, decisions made with rationale, action items with specific owners and deadlines, next steps. Non-negotiables: bullet point format, 200-400 words, no emojis, objective third-person tone. Make sure to include: specific names for action item owners, concrete deadlines, distinction between decisions made vs still open. Do not: verbatim transcription, personal opinions, ambiguous assignments like 'team will handle'.",
+    "input_format": "Interview Transcript",
+    "output_format": "Bullet List",
+    "tone": "Concise and direct",
+    "additional_instructions": ""
+  },
+  {
+    "id": "job-description-018",
+    "name": "Write a Job Description",
+    "role": "Recruiter",
+    "goal": "Write a compelling job description that attracts top candidates while being accurate and inclusive. Build it like this: job title, 2-3 sentence company overview (culture-first), role summary (what they'll own and accomplish, not just duties), key responsibilities (5-7 bullet points starting with verbs), required qualifications (the true must-haves only), preferred qualifications, and what you offer. Non-negotiables: 400-500 words, inclusive language (no gendered terms, no 'rock star' or 'ninja'), requirements list no longer than 6 items. Each responsibility should be outcome-focused, not task-focused. Do not: laundry lists of 20+ requirements, corporate jargon, asking for 10 years experience for entry-level roles.",
+    "input_format": "Job Description",
+    "output_format": "Paragraph",
+    "tone": "Friendly and encouraging",
+    "additional_instructions": ""
+  },
+  {
+    "id": "interview-questions-019",
+    "name": "Generate Interview Questions",
+    "role": "Recruiter",
+    "goal": "Create a comprehensive, bias-free interview question set. Build it like this: 3-4 screening questions, 5-7 behavioral questions using STAR format cues, 4-5 technical or role-specific questions, 2-3 scenario-based situational questions. Non-negotiables: 15-20 total questions, no illegal questions (age, religion, family plans), inclusive and bias-free language, each question followed by [What to listen for] evaluation note. Make sure to include: a mix of difficulty levels, competency-based and values-based questions. Do not: yes/no questions, leading questions, questions that overlap heavily.",
+    "input_format": "Job Description",
+    "output_format": "Interview Question Set",
+    "tone": "Authoritative and professional",
+    "additional_instructions": ""
+  },
+  {
+    "id": "press-release-020",
+    "name": "Write a Press Release",
+    "role": "Marketing Strategist",
+    "goal": "Draft a media-ready press release following AP style guidelines. Build it like this: compelling headline (10-12 words max), dateline, strong lead paragraph answering who/what/when/where/why in first 2 sentences, 2-3 body paragraphs with supporting details and at least one executive quote, boilerplate company description (2-3 sentences), media contact information. Non-negotiables: 400-600 words, inverted pyramid structure, third-person throughout, no marketing hype or superlatives without evidence, no emojis. The lead must be so strong that if an editor cuts everything after paragraph 1, the story still makes sense. Do not: burying the lead, clichés, em dashes.",
+    "input_format": "Event Details",
+    "output_format": "Press Release",
+    "tone": "Formal and structured",
+    "additional_instructions": ""
+  },
+  {
+    "id": "newsletter-021",
+    "name": "Draft a Newsletter",
+    "role": "Email Marketing Specialist",
+    "goal": "Write engaging newsletter content that drives opens, reads, and clicks. Build it like this: subject line (under 50 characters) plus preview text suggestion, warm greeting with personalization element [FIRST_NAME], a brief value-forward intro or hook, 3-4 main content sections with clear headings, one featured story or resource, CTA section, friendly sign-off with personality. Non-negotiables: 300-500 words, scannable format with short paragraphs, mobile-first (no sentence longer than 2 lines), no emojis in subject line. Always value-first before any ask. Do not: ALL CAPS subject lines, multiple competing CTAs, 'As a valued subscriber', long blocks of text.",
+    "input_format": "Company Updates",
+    "output_format": "Newsletter Draft",
+    "tone": "Warm, conversational, and approachable",
+    "additional_instructions": ""
+  },
+  {
+    "id": "ad-copy-022",
+    "name": "Write Ad Copy",
+    "role": "Copywriter",
+    "goal": "Craft attention-grabbing advertisement copy using the PAS (Problem-Agitate-Solution) or AIDA framework. Build it like this: headline that stops scroll (6-10 words, benefit-first), subheadline expanding on the benefit, 2-3 sentences of body copy that acknowledges the pain point, presents the solution, and builds desire, strong CTA with urgency or specificity. Non-negotiables: headline under 10 words, total copy 50-100 words, benefit-focused not feature-focused, one clear CTA. Make sure to include: a specific value proposition, social proof element if possible. Do not: superlatives without proof ('best', 'world-class'), multiple CTAs, negative framing, em dashes.",
+    "input_format": "Product Details",
+    "output_format": "Ad Copy",
+    "tone": "Bold and assertive",
+    "additional_instructions": ""
+  },
+  {
+    "id": "video-script-023",
+    "name": "Write a Video Script",
+    "role": "Content Writer",
+    "goal": "Write a compelling short-form video script for social or promotional content. Build it like this: hook in first 3 seconds (visual action or bold statement), problem statement (10-15 seconds), solution or product introduction (20-30 seconds), key benefits with visual examples (30-45 seconds), social proof or credibility (15-20 seconds), strong CTA (10 seconds). Non-negotiables: 60-90 seconds total when spoken at natural pace, written for spoken delivery with natural pauses, include [VISUAL CUE] directions in brackets. Format as two-column script: VIDEO | AUDIO. Do not: long paragraphs, passive voice, 'like and subscribe' before delivering value, em dashes.",
+    "input_format": "Product Details",
+    "output_format": "Video Script",
+    "tone": "Enthusiastic and upbeat",
+    "additional_instructions": ""
+  },
+  {
+    "id": "faq-024",
+    "name": "Generate FAQs",
+    "role": "Customer Support Agent",
+    "goal": "Create a comprehensive FAQ list that preemptively answers real customer questions. Build it like this: 8-12 Q&A pairs organized by category (general, pricing, technical, support), questions phrased exactly as a customer would ask them, answers that are complete and actionable. Non-negotiables: questions in first or second person ('How do I...', 'Can I...'), answers 2-4 sentences with specific details, no emojis, no vague answers like 'it depends' without explaining what it depends on. Make sure to include: troubleshooting steps for common issues, specific details like timelines, pricing, and next steps. Format: Q: [question] A: [answer]. Do not: technical jargon, missing critical steps, one-word answers.",
+    "input_format": "Product Details",
+    "output_format": "FAQ",
+    "tone": "Clear and explanatory",
+    "additional_instructions": ""
+  },
+  {
+    "id": "lesson-plan-elementary-025",
+    "name": "Lesson Plan — Elementary School (K-5)",
+    "role": "Educator",
+    "goal": "Develop an engaging lesson plan for elementary school students (grades K-5) following best practices in early childhood education. Build it like this: grade-specific learning objectives using Bloom's taxonomy action verbs, materials needed, energetic warm-up activity (5 minutes), direct instruction with visual or hands-on component (10-15 min), guided practice with teacher support (10 min), independent or partner activity (10 min), formative check (5 min), fun closure. Non-negotiables: age-appropriate language and concepts, no jargon, differentiation strategies for early finishers and struggling learners, no emojis in plan. Make sure to include: movement breaks, visual learning elements, one assessment method. Do not: passive lecture formats, activities lasting more than 15 minutes without a check-in.",
+    "input_format": "Topic",
+    "output_format": "Step-by-Step Instructions",
+    "tone": "Friendly and encouraging",
+    "additional_instructions": ""
+  },
+  {
+    "id": "lesson-plan-middle-026",
+    "name": "Lesson Plan — Middle School (6-8)",
+    "role": "Educator",
+    "goal": "Create a rigorous, engaging lesson plan for middle school students (grades 6-8) that balances academic challenge with adolescent engagement strategies. Build it like this: standards-aligned learning objectives, materials, hook activity connecting to real-world relevance (5-10 min), instruction with scaffolded questioning (15-20 min), collaborative activity (15 min), independent practice (10 min), exit ticket or formative assessment. Non-negotiables: 45-50 minute period, use student-centered approaches, include at least one technology or multimedia element, no emojis. Make sure to include: differentiation strategies, connection to real-world application, academic vocabulary list. Do not: lecture-only instruction, copying and pasting from textbooks, activities without clear learning purpose.",
+    "input_format": "Topic",
+    "output_format": "Step-by-Step Instructions",
+    "tone": "Instructive and step-by-step",
+    "additional_instructions": ""
+  },
+  {
+    "id": "lesson-plan-high-school-027",
+    "name": "Lesson Plan — High School (9-12)",
+    "role": "Educator",
+    "goal": "Design a challenging lesson plan for high school students (grades 9-12) that develops higher-order thinking skills. Build it like this: standards-aligned objectives using analysis/evaluation/creation-level Bloom's verbs, materials, engaging launch activity with a complex question or problem (10 min), direct instruction or Socratic discussion (20 min), application activity (20 min), synthesis or reflection (10 min). Non-negotiables: 50-60 minute period, include critical thinking, argumentation, or inquiry components, differentiation for IEP/ELL students, no emojis. Make sure to include: college-readiness skills, academic rigor, one formative and one summative assessment idea. Do not: drill-and-practice only, activities that don't push beyond recall and comprehension.",
+    "input_format": "Topic",
+    "output_format": "Step-by-Step Instructions",
+    "tone": "Instructive and step-by-step",
+    "additional_instructions": ""
+  },
+  {
+    "id": "lesson-plan-college-028",
+    "name": "Lesson Plan — College / University",
+    "role": "Educator",
+    "goal": "Design a college-level lesson or lecture plan that fosters critical thinking, discussion, and real-world application. Build it like this: learning outcomes mapped to course objectives, pre-class reading or activity, lecture with embedded active learning breaks (think-pair-share, polls, case analysis) every 15-20 minutes, discussion facilitation questions, application exercise, wrap-up and preview of next class. Non-negotiables: 75-90 minute session, include Socratic questioning techniques, promote student agency and discussion, no emojis. Make sure to include: primary sources or scholarly references, real-world examples, higher-order analysis tasks. Do not: 90-minute lecture with no interaction, low-level recall questions only.",
+    "input_format": "Topic",
+    "output_format": "Step-by-Step Instructions",
+    "tone": "Precise and technical",
+    "additional_instructions": ""
+  },
+  {
+    "id": "explain-concept-simple-029",
+    "name": "Explain a Concept Simply (ELI5)",
+    "role": "Private Tutor",
+    "goal": "Explain a complex concept in simple, clear language that a complete beginner can understand. Use the Feynman Technique: strip away all jargon, build from first principles, use a concrete real-world analogy the person already understands, then reintroduce technical terms once the concept is clear. Build it like this: one-sentence core idea, real-world analogy, step-by-step plain-language explanation, common misconception to avoid, one-line recap. Non-negotiables: 200-300 words, zero jargon without definition, second person ('you'), no emojis. The test: could a smart 12-year-old follow this? Do not: assuming prior knowledge, jumping to technical details before the core idea is clear, condescending language.",
+    "input_format": "Topic",
+    "output_format": "Paragraph",
+    "tone": "Clear and explanatory",
+    "additional_instructions": ""
+  },
+  {
+    "id": "study-guide-030",
+    "name": "Create a Study Guide",
+    "role": "Private Tutor",
+    "goal": "Create a comprehensive, exam-ready study guide for the given topic. Build it like this: key concepts and definitions (organized by subtopic), important formulas or frameworks (if applicable), summary of the most testable points, practice questions with answers (5-10 questions at varying difficulty levels: recall, application, analysis), memory aids or mnemonics where helpful. Non-negotiables: scannable format with headers, 500-800 words, include at least 3 practice questions with worked answers, no emojis. Format for easy review — key terms bolded. Do not: replicating the textbook, passive summaries, questions that only test memorization.",
+    "input_format": "Topic",
+    "output_format": "Checklist",
+    "tone": "Instructive and step-by-step",
+    "additional_instructions": ""
+  },
+  {
+    "id": "code-debug-031",
+    "name": "Debug Code",
+    "role": "Software Engineer",
+    "goal": "Analyze the provided code snippet, identify all bugs, explain what each bug does and why it causes the issue, then provide a corrected version. Build it like this: bug identification list (each bug with line number, description, root cause), corrected code block with inline comments explaining each fix, explanation of why the corrected code works. Non-negotiables: identify ALL bugs not just the obvious ones, include edge cases and potential runtime errors, use clear technical explanations. If the code has no bugs, verify correctness and suggest performance improvements. Do not: just providing fixed code without explaining why, missing secondary bugs, overcomplicated fixes when simple ones work.",
+    "input_format": "Code Snippet",
+    "output_format": "Code Block",
+    "tone": "Precise and technical",
+    "additional_instructions": ""
+  },
+  {
+    "id": "code-review-032",
+    "name": "Code Review",
+    "role": "Software Engineer",
+    "goal": "Perform a thorough code review of the provided code. Evaluate: correctness (does it do what it's supposed to), code quality (readability, naming, structure), performance (time/space complexity, unnecessary operations), security (injection, auth, data exposure), maintainability (modularity, SOLID principles, DRY). Build it like this: overall assessment (1-2 sentences), critical issues (must fix), major issues (should fix), minor issues and style suggestions, positive highlights. Non-negotiables: specific line references for each issue, concrete suggestions not vague critiques, explain the why behind each recommendation. Do not: nitpicking style over substance, vague feedback like 'this could be cleaner'.",
+    "input_format": "Code Snippet",
+    "output_format": "Bullet List",
+    "tone": "Precise and technical",
+    "additional_instructions": ""
+  },
+  {
+    "id": "code-explain-033",
+    "name": "Explain Code",
+    "role": "Software Engineer",
+    "goal": "Explain what the provided code does in plain English, then provide a technical deep-dive. Build it like this: one-sentence plain English summary (what it does, not how), section-by-section walkthrough explaining the logic, data flow, and purpose of each part, any non-obvious design decisions or patterns used, potential issues or edge cases to be aware of. Non-negotiables: plain English summary must be jargon-free, technical section can use proper terminology with brief definitions, include time/space complexity if a function/algorithm. Do not: line-by-line repetition of the code in English, assuming the reader knows what every function does, missing the forest for the trees.",
+    "input_format": "Code Snippet",
+    "output_format": "Paragraph",
+    "tone": "Clear and explanatory",
+    "additional_instructions": ""
+  },
+  {
+    "id": "code-write-function-034",
+    "name": "Write a Function or Script",
+    "role": "Software Engineer",
+    "goal": "Write clean, production-ready code for the described function or script. Build it like this: the function/script with full implementation, inline comments for non-obvious logic, input/output documentation (parameters, return types, exceptions), usage example. Non-negotiables: follow language-specific best practices and conventions, handle edge cases and error states, include input validation, optimize for readability first then performance. Return complete, working code — not pseudocode. Do not: hardcoded values that should be parameters, missing error handling, over-engineering simple tasks, code that only works for the happy path.",
+    "input_format": "Text",
+    "output_format": "Code Block",
+    "tone": "Precise and technical",
+    "additional_instructions": ""
+  },
+  {
+    "id": "code-refactor-035",
+    "name": "Refactor Code",
+    "role": "Software Engineer",
+    "goal": "Refactor the provided code to improve readability, maintainability, and performance without changing its external behavior. Show: the original code, the refactored version, and a clear explanation of each change made and why. Apply: DRY principle (eliminate repetition), SOLID principles where applicable, better naming conventions, extraction of complex logic into named functions, removal of unnecessary complexity. Non-negotiables: the refactored code must be functionally identical to the original, explain every significant change, note any trade-offs. Do not: refactoring for the sake of it, introducing new bugs, making code less readable in pursuit of cleverness.",
+    "input_format": "Code Snippet",
+    "output_format": "Code Block",
+    "tone": "Precise and technical",
+    "additional_instructions": ""
+  },
+  {
+    "id": "code-unit-tests-036",
+    "name": "Write Unit Tests",
+    "role": "Software Engineer",
+    "goal": "Write comprehensive unit tests for the provided code. Cover: happy path (expected inputs and outputs), edge cases (empty inputs, null values, boundary values), error cases (invalid inputs, exceptions), and any state-based behavior. Build it like this: each test with a descriptive name explaining what it tests and what the expected outcome is, test setup/teardown, assertions with meaningful messages. Non-negotiables: use the appropriate testing framework for the language, each test should test ONE thing only, test names should read like documentation ('should return empty array when input is null'). Do not: tests that just repeat the implementation logic, testing implementation details instead of behavior, brittle tests that break on refactoring.",
+    "input_format": "Code Snippet",
+    "output_format": "Code Block",
+    "tone": "Precise and technical",
+    "additional_instructions": ""
+  },
+  {
+    "id": "code-sql-query-037",
+    "name": "Write or Optimize a SQL Query",
+    "role": "Data Scientist",
+    "goal": "Write an optimized SQL query for the described requirement, or analyze and optimize a provided query. For writing: produce a clear, well-formatted query with table aliases, meaningful column names in the output, and comments for complex logic. For optimizing: identify performance bottlenecks (full table scans, N+1 queries, missing indexes), rewrite for efficiency, explain every optimization made. Non-negotiables: use ANSI SQL unless a specific dialect is specified, format with consistent indentation, include an index recommendation if applicable. Do not: SELECT *, unnecessary subqueries when JOINs work better, non-sargable predicates that prevent index use.",
+    "input_format": "Text",
+    "output_format": "Code Block",
+    "tone": "Precise and technical",
+    "additional_instructions": ""
+  },
+  {
+    "id": "code-api-docs-038",
+    "name": "Write API Documentation",
+    "role": "Technical Writer",
+    "goal": "Write clear, developer-friendly API documentation for the provided endpoint or API. Build it like this: endpoint overview (what it does in one sentence), authentication requirements, request details (method, URL, headers, parameters with types and descriptions, example request body), response details (status codes, response schema with all fields described, example response), error codes and what they mean, usage notes or caveats. Non-negotiables: include a complete working request example (using curl or similar), document ALL response fields not just the obvious ones, include at least 2 error scenarios. Format: developer-readable with code blocks for all examples. Do not: vague descriptions like 'returns user data', missing error documentation, untested example requests.",
+    "input_format": "Text",
+    "output_format": "Markdown Table",
+    "tone": "Precise and technical",
+    "additional_instructions": ""
+  },
+  {
+    "id": "code-regex-039",
+    "name": "Write or Explain a Regex",
+    "role": "Software Engineer",
+    "goal": "Write a regular expression for the described pattern, or explain a provided regex. For writing: produce the regex with a plain-English explanation of each component, test cases that match and should NOT match, and any edge cases to be aware of. For explaining: break down the regex character by character or group by group in plain English, explain what it matches and doesn't, provide 3-5 example inputs showing matches and non-matches. Non-negotiables: include the regex in a code block, note any differences between regex flavors if relevant (PCRE vs JavaScript vs Python). Do not: overly complex regexes when simpler alternatives exist, leaving edge cases unexplained.",
+    "input_format": "Text",
+    "output_format": "Code Block",
+    "tone": "Precise and technical",
+    "additional_instructions": ""
+  },
+  {
+    "id": "code-architecture-040",
+    "name": "Design System Architecture",
+    "role": "Software Engineer",
+    "goal": "Design a high-level system architecture for the described application or feature. Build it like this: system overview (what we're building, key requirements), architecture diagram description (components and how they connect), data flow walkthrough, technology choices with rationale (and trade-offs considered), scalability and failure considerations, open questions and assumptions made. Non-negotiables: be opinionated but explain your reasoning, include at least 2 alternative approaches considered and why this one was chosen, cover data storage, API layer, and frontend concerns. Do not: buzzword-heavy architecture astronautics, ignoring the stated constraints, recommending over-engineered solutions for simple problems.",
+    "input_format": "Text",
+    "output_format": "Paragraph",
+    "tone": "Precise and technical",
+    "additional_instructions": ""
+  },
+  {
+    "id": "code-git-commit-041",
+    "name": "Write a Git Commit Message",
+    "role": "Software Engineer",
+    "goal": "Write a clear, conventional Git commit message for the described changes. Follow the Conventional Commits specification: type(scope): description format for the subject line, followed by a body explaining WHAT changed and WHY (not how — the code shows how). Build it like this: subject line (imperative mood, under 72 characters, no period), blank line, body (wrap at 72 characters, explain motivation for the change, reference issues if applicable). Types: feat, fix, docs, style, refactor, test, chore. Do not: vague messages like 'fix bug' or 'update code', subject lines over 72 characters, explaining what the code does (explain why it changed).",
+    "input_format": "Text",
+    "output_format": "Paragraph",
+    "tone": "Concise and direct",
+    "additional_instructions": ""
+  },
+  {
+    "id": "code-dockerfile-042",
+    "name": "Write a Dockerfile",
+    "role": "DevOps Engineer",
+    "goal": "Write a production-ready, optimized Dockerfile for the described application. Make sure to include: appropriate base image selection with version pinned (not 'latest'), multi-stage build if applicable to minimize final image size, environment variable definitions, dependency installation with cache optimization (copy package files before source code), non-root user for security, health check, proper ENTRYPOINT vs CMD usage. Build it like this: the Dockerfile with comments explaining key decisions, build and run commands, estimated image size and optimization notes. Non-negotiables: follow Docker best practices, minimize layers, no secrets hardcoded. Do not: running as root, using 'latest' tags, installing development dependencies in production image.",
+    "input_format": "Text",
+    "output_format": "Code Block",
+    "tone": "Precise and technical",
+    "additional_instructions": ""
+  },
+  {
+    "id": "code-ci-cd-043",
+    "name": "Write a CI/CD Pipeline",
+    "role": "DevOps Engineer",
+    "goal": "Design a CI/CD pipeline configuration for the described application and requirements. Build it like this: trigger conditions (push, PR, schedule), stages (lint/test, build, security scan, deploy to staging, deploy to production), environment-specific configurations, secrets handling, rollback strategy. Make sure to include: the pipeline configuration file (GitHub Actions, GitLab CI, or specified tool), explanation of each stage and why it's included, estimated pipeline duration, and any manual approval gates. Non-negotiables: fail fast (quick checks first), parallel jobs where possible, never hardcode secrets, include notification on failure. Do not: deploying untested code, skipping security scans, pipelines with no rollback capability.",
+    "input_format": "Text",
+    "output_format": "Code Block",
+    "tone": "Precise and technical",
+    "additional_instructions": ""
+  },
+  {
+    "id": "code-data-analysis-044",
+    "name": "Data Analysis Script",
+    "role": "Data Scientist",
+    "goal": "Write a data analysis script for the described dataset and goal. Build it like this: data loading and initial inspection (shape, types, missing values), exploratory data analysis (distributions, correlations, outliers), specific analysis requested, visualizations (described in code comments or implemented), key findings summary. Non-negotiables: use pandas/numpy for Python or equivalent for other languages, handle missing values explicitly (don't silently drop), include comments explaining analytical decisions, output clear printed findings not just code. Do not: hardcoded file paths, analyzing data without first checking its quality, producing outputs with no interpretation.",
+    "input_format": "CSV",
+    "output_format": "Code Block",
+    "tone": "Analytical and data-driven",
+    "additional_instructions": ""
+  },
+  {
+    "id": "code-mock-data-045",
+    "name": "Generate Mock / Test Data",
+    "role": "Software Engineer",
+    "goal": "Generate realistic mock data or a script to generate it for the described data structure. The mock data must be realistic enough to use for development and testing — not obviously fake (no 'foo bar', 'test@test.com', or '123 Main St'). Make sure to include: 10-20 sample records, edge cases in the data (null values where nullable, boundary values, unicode characters if relevant), a generator script if volume is needed. Non-negotiables: use realistic names, addresses, emails, and values appropriate to the domain, respect the schema/constraints provided, document any assumptions made. Do not: duplicate values that wouldn't appear in real data, obviously placeholder content.",
+    "input_format": "JSON",
+    "output_format": "JSON",
+    "tone": "Precise and technical",
+    "additional_instructions": ""
+  },
+  {
+    "id": "recipe-step-by-step-046",
+    "name": "Step-by-Step Recipe Guide",
+    "role": "Personal Chef",
+    "goal": "Write a detailed step-by-step recipe that a home cook can follow without prior experience. Build it like this: dish name and brief enticing description (2 sentences), prep time, cook time, servings, ingredients list (organized by component), numbered step-by-step instructions. Each step must be one clear action. Non-negotiables: include specific quantities and timing in each step (not 'cook until done' — 'cook for 8-10 minutes until golden brown'), technique tips in italics or [Tips] callouts, include a 'What can go wrong' note for the 2-3 most common mistakes. Make sure to include: ingredient substitutions for common allergens or dietary restrictions. Do not: combining multiple actions into one step, missing temperatures, assuming the reader knows cooking terms without explaining them.",
+    "input_format": "Text",
+    "output_format": "Step-by-Step Instructions",
+    "tone": "Warm, conversational, and approachable",
+    "additional_instructions": ""
+  },
+  {
+    "id": "recipe-by-ingredients-047",
+    "name": "Recipe from Ingredients on Hand",
+    "role": "Personal Chef",
+    "goal": "Create a delicious, practical recipe using primarily the ingredients provided. The recipe must be genuinely appetizing and something a person would actually want to eat — not a random combination. Build it like this: recipe title that sounds appetizing, brief description of the flavor profile, complete ingredient list (including common pantry staples that can be assumed), step-by-step instructions with timing. Non-negotiables: prioritize the provided ingredients, list any additional ingredients needed clearly as 'you'll also need', include difficulty level (easy/medium/hard), cooking time, and servings. If multiple recipes are possible, present the best 2-3 options first before going into detail on the top pick. Do not: suggesting a recipe that ignores the main ingredients, overly complex recipes when simple ones work better.",
+    "input_format": "Text",
+    "output_format": "Step-by-Step Instructions",
+    "tone": "Warm, conversational, and approachable",
+    "additional_instructions": ""
+  },
+  {
+    "id": "recipe-meal-plan-048",
+    "name": "Weekly Meal Plan",
+    "role": "Personal Chef",
+    "goal": "Create a practical, balanced 7-day meal plan with breakfast, lunch, and dinner for each day. The plan must be realistic for a busy person — not require 3 hours of cooking every night. Design for ingredient efficiency: ingredients used in one meal should reuse in another to minimize waste and grocery cost. Build it like this: weekly overview table, day-by-day meal list, one consolidated grocery list organized by store section, 2-3 batch-prep tips for the week. Non-negotiables: include total prep time per day, flag meals that can be prepped ahead, balance nutrition (proteins, vegetables, carbs), account for dietary preference provided in input. Do not: meals requiring specialty ingredients that are hard to find, menus with zero overlap in ingredients, underestimating real-world cook times.",
+    "input_format": "Text",
+    "output_format": "Markdown Table",
+    "tone": "Instructive and step-by-step",
+    "additional_instructions": ""
+  },
+  {
+    "id": "workout-plan-049",
+    "name": "Custom Workout Plan",
+    "role": "Personal Fitness Coach",
+    "goal": "Design a personalized workout plan based on the user's goals, fitness level, available equipment, and time. Build it like this: weekly schedule overview (which muscle groups on which days and why), day-by-day workout plans with exercise name, sets, reps/duration, and rest periods, warm-up and cool-down for each session, progression plan (how to advance after 2-4 weeks). Non-negotiables: match intensity to stated fitness level, include modifications for exercises that may be too difficult, specify equipment needed for each exercise or a bodyweight alternative. Make sure to include: a note on nutrition timing if relevant to the goal, recovery days with active recovery suggestions. Do not: programming more than 5 days per week without recovery, exercises unsafe for the stated fitness level, vague descriptions like 'do some cardio'.",
+    "input_format": "Text",
+    "output_format": "Checklist",
+    "tone": "Motivational and energetic",
+    "additional_instructions": ""
+  },
+  {
+    "id": "nutrition-plan-050",
+    "name": "Nutrition and Meal Plan for Fitness Goal",
+    "role": "Personal Fitness Coach",
+    "goal": "Create a practical nutrition plan aligned with a specific fitness goal (weight loss, muscle gain, performance, or general health). Build it like this: calorie and macro targets with explanation of how they were calculated, sample daily meal plan for a typical day, food list organized by macronutrient (proteins, carbs, fats), practical tips for hitting targets on busy days. Non-negotiables: base calculations on the provided stats (weight, height, activity level) or state assumptions clearly, use whole foods as the foundation, allow flexibility for real life. Make sure to include: pre/post workout nutrition guidance, hydration targets, at least 3 'emergency' quick meal ideas for when there's no time to cook. Do not: extreme restriction, eliminating entire food groups without medical reason, unrealistic meal prep requirements.",
+    "input_format": "Text",
+    "output_format": "Bullet List",
+    "tone": "Motivational and energetic",
+    "additional_instructions": ""
+  },
+  {
+    "id": "financial-budget-051",
+    "name": "Personal Budget Plan",
+    "role": "Financial Advisor",
+    "goal": "Create a practical monthly budget plan using the provided income and expense information. Apply the 50/30/20 rule as a starting framework (50% needs, 30% wants, 20% savings) but adjust based on the actual situation. Build it like this: income summary, current expense categorization (needs vs wants vs savings), identified problem areas, recommended budget with specific dollar amounts per category, 3 immediate actions to improve financial health. Non-negotiables: be specific with numbers, not ranges, flag any spending that exceeds recommended percentages, include an emergency fund target. Note: this is general guidance, not professional financial advice. Do not: generic advice like 'spend less on food', ignoring actual constraints the person mentioned, recommending investing before emergency fund is built.",
+    "input_format": "Text",
+    "output_format": "Markdown Table",
+    "tone": "Analytical and data-driven",
+    "additional_instructions": ""
+  },
+  {
+    "id": "financial-explain-052",
+    "name": "Explain a Financial Concept",
+    "role": "Financial Advisor",
+    "goal": "Explain a financial concept in plain language with practical examples. Use the concept of someone already in the audience's shoes — connect it to everyday decisions they already make. Build it like this: one-sentence plain-English definition, real-world analogy using everyday life, how it works mechanically (simple numbered steps), a concrete example with numbers, what this means for the average person's financial decisions, one common mistake to avoid. Non-negotiables: no jargon without definition, include a real numerical example, second person ('you'), 300-400 words. Note this is educational, not personalized financial advice. Do not: oversimplifying to the point of inaccuracy, using Wall Street jargon, missing the practical 'so what'.",
+    "input_format": "Topic",
+    "output_format": "Paragraph",
+    "tone": "Clear and explanatory",
+    "additional_instructions": ""
+  },
+  {
+    "id": "financial-investment-053",
+    "name": "Investment Options Overview",
+    "role": "Financial Advisor",
+    "goal": "Provide an objective, educational overview of investment options for a given financial situation and goal. Build it like this: the goal restated clearly, 3-5 relevant investment vehicles with plain-English descriptions, pros and cons of each, risk levels (low/medium/high) with explanation, historical return context (without guaranteeing future performance), suggested starting point based on the stated situation. Non-negotiables: educational content only — not personalized investment advice, include risk disclosures, balance perspectives (don't just push stocks), reference tax implications where relevant. Note: recommend consulting a licensed financial advisor for personalized guidance. Do not: predicting returns, ignoring tax implications, treating all investors the same regardless of timeline.",
+    "input_format": "Text",
+    "output_format": "Comparison Table",
+    "tone": "Neutral and objective",
+    "additional_instructions": ""
+  },
+  {
+    "id": "travel-itinerary-054",
+    "name": "Travel Itinerary",
+    "role": "Travel Planner",
+    "goal": "Create a detailed, practical travel itinerary for the specified destination and trip length. Build it like this: trip overview (best time to visit, practical logistics), day-by-day schedule with timing (morning/afternoon/evening), top 2-3 activities or sights per day with brief descriptions, recommended restaurants near each area (breakfast/lunch/dinner), transportation between locations. Non-negotiables: realistic pacing (don't cram 10 things into one day), include actual estimated travel times between locations, note any must-book-in-advance reservations, budget level should match what's stated. Make sure to include: 1-2 hidden gems beyond the tourist trail per destination, local tip. Do not: tourist trap itineraries, assuming everything is within walking distance, ignoring opening hours.",
+    "input_format": "Text",
+    "output_format": "Step-by-Step Instructions",
+    "tone": "Enthusiastic and upbeat",
+    "additional_instructions": ""
+  },
+  {
+    "id": "travel-packing-list-055",
+    "name": "Packing List",
+    "role": "Travel Planner",
+    "goal": "Create a comprehensive, realistic packing list tailored to the specific trip (destination, duration, climate, activities). Build it like this: categories (documents and money, clothing, toiletries, electronics, health and safety, activity-specific gear), each item with a brief note on why it's needed if not obvious, a 'carry-on essentials' section for items that must not be checked. Non-negotiables: items must be specific (not 'clothes' but '3 t-shirts, 1 dress shirt'), mark items as essential vs nice-to-have, include a pre-departure checklist (passport, cancel auto-payments, etc.), no generic lists that apply to every trip. Do not: listing items everyone obviously packs without any specific value, forgetting destination-specific needs (adapter plugs, sunscreen for beach destinations, etc.).",
+    "input_format": "Text",
+    "output_format": "Checklist",
+    "tone": "Instructive and step-by-step",
+    "additional_instructions": ""
+  },
+  {
+    "id": "health-symptom-explainer-056",
+    "name": "Explain Health Symptoms (Educational)",
+    "role": "Medical Educator",
+    "goal": "Provide clear, educational information about health symptoms or conditions in plain language. Build it like this: plain-English explanation of the symptom or condition, common causes (most to least common), typical associated symptoms, when to seek medical care (specific red flags), general lifestyle or self-care information from established guidelines. Non-negotiables: always recommend consulting a healthcare provider for diagnosis or treatment, no specific medical advice or diagnoses, cite established medical guidelines where relevant, second person ('you'), empathetic tone. Make sure to include: a clear statement that this is educational information only and not a substitute for professional medical advice. Do not: diagnosing the reader, using medical jargon without explanation, minimizing symptoms that warrant immediate care.",
+    "input_format": "Text",
+    "output_format": "Paragraph",
+    "tone": "Empathetic and supportive",
+    "additional_instructions": ""
+  },
+  {
+    "id": "health-patient-communication-057",
+    "name": "Patient Communication Draft",
+    "role": "Medical Educator",
+    "goal": "Draft clear, empathetic patient-facing communication about a health condition, procedure, or treatment plan in plain language. Build it like this: what it is (plain English), why it matters for the patient, what to expect (step by step), what to do and what to avoid, when to contact the care team (specific symptoms or situations). Non-negotiables: 6th-8th grade reading level, no medical jargon without clear definition, empathetic and reassuring tone without minimizing concerns, include a disclaimer that this supplements but does not replace conversations with their healthcare provider. Do not: overwhelming the patient with information overload, clinical coldness, overly technical language.",
+    "input_format": "Text",
+    "output_format": "Paragraph",
+    "tone": "Empathetic and supportive",
+    "additional_instructions": ""
+  },
+  {
+    "id": "real-estate-listing-058",
+    "name": "Real Estate Property Listing",
+    "role": "Real Estate Agent",
+    "goal": "Write a compelling property listing that attracts qualified buyers. Build it like this: attention-grabbing headline (under 12 words, highlight the best feature), enticing introduction (the emotional sell — the lifestyle this home enables), property highlights organized by area (exterior, main living, kitchen, bedrooms, outdoor), neighborhood and location benefits, key specs in scannable format. Non-negotiables: 250-400 words, benefit-first language, no ALL CAPS, no excessive exclamation marks. Highlight what makes this property unique vs other homes in the area. Do not: starting with the address, listing square footage before the lifestyle appeal, mentioning any legally sensitive terms (motivated seller, convenient to churches, etc.).",
+    "input_format": "Product Details",
+    "output_format": "Product Description",
+    "tone": "Persuasive and confident",
+    "additional_instructions": ""
+  },
+  {
+    "id": "real-estate-offer-letter-059",
+    "name": "Real Estate Offer Letter",
+    "role": "Real Estate Agent",
+    "goal": "Write a personal offer letter from buyer to seller to accompany a real estate offer. The goal is to create an emotional connection and differentiate from competing offers. Build it like this: warm greeting, personal introduction (who you are, your family/situation briefly), genuine connection to the specific property (specific features you love, how you'll use them), brief vision of your life in the home, appreciation for the sellers' care of the home. Non-negotiables: 200-300 words, sincere and specific — not generic, no price negotiation or business terms in the letter, warm closing. Mention specific details from the property to show genuine interest. Do not: over-sharing personal information, coming across as desperate or manipulative, generic letters that could apply to any home.",
+    "input_format": "Text",
+    "output_format": "Paragraph",
+    "tone": "Warm, conversational, and approachable",
+    "additional_instructions": ""
+  },
+  {
+    "id": "startup-pitch-060",
+    "name": "Startup Pitch — Elevator Pitch",
+    "role": "Startup Advisor",
+    "goal": "Write a compelling 60-second elevator pitch for a startup. Build it like this: the hook (what surprising problem you solve or what you do in one arresting sentence), the problem (make the pain vivid and relatable), your solution (the 'how' in plain English), the traction or proof point (one data point, customer story, or market fact), the ask or CTA. Non-negotiables: 150-180 words when spoken naturally, zero jargon, should make a non-expert lean in and ask 'tell me more'. Every sentence must earn its place — if it can be cut without losing meaning, cut it. Do not: starting with 'We are a platform that...', burying the hook, using words like 'disruptive', 'synergy', 'paradigm shift'.",
+    "input_format": "Text",
+    "output_format": "Paragraph",
+    "tone": "Persuasive and confident",
+    "additional_instructions": ""
+  },
+  {
+    "id": "startup-pitch-investor-061",
+    "name": "Startup Pitch Deck Outline",
+    "role": "Startup Advisor",
+    "goal": "Create a compelling pitch deck narrative and slide-by-slide outline for a Series A-ready investor presentation. Cover the 10 essential slides: Problem (make it visceral), Solution (demo-ready), Market Size (TAM/SAM/SOM with sources), Product (screenshots or description), Business Model (how you make money), Traction (your best metrics), Team (why you're the ones to do this), Competition (honest positioning), Financials (3-year projection), and Ask (how much, for what, milestones). Non-negotiables: each slide gets a headline, 3-5 bullet points of content, and what visual to use. The story arc must flow — each slide must set up the next. Do not: slides that defend rather than excite, hockey stick projections without support, a 'Team' slide that's just LinkedIn headshots.",
+    "input_format": "Text",
+    "output_format": "Slide Outline",
+    "tone": "Persuasive and confident",
+    "additional_instructions": ""
+  },
+  {
+    "id": "startup-business-plan-062",
+    "name": "Business Plan Summary",
+    "role": "Startup Advisor",
+    "goal": "Write a concise, compelling business plan executive summary for a new business idea. Build it like this: business concept (what and why in 2 sentences), problem and target market (specific, not 'everyone'), solution and competitive advantage, business model and revenue streams, market opportunity (with specific numbers), go-to-market strategy, financial summary (year 1-3 projections at high level), team highlights, funding ask if applicable. Non-negotiables: 500-700 words, specific and realistic (not aspirational fluff), every claim should be supportable, include key risks and mitigation strategies. Do not: claiming 'no competition', vague market sizing like 'billion dollar market' without specifics, unrealistic hockey-stick projections.",
+    "input_format": "Text",
+    "output_format": "Executive Summary",
+    "tone": "Persuasive and confident",
+    "additional_instructions": ""
+  },
+  {
+    "id": "customer-complaint-063",
+    "name": "Respond to a Customer Complaint",
+    "role": "Customer Success Manager",
+    "goal": "Write a professional, empathetic response to a customer complaint that acknowledges the issue, takes responsibility where appropriate, and provides a clear resolution path. Build it like this: genuine acknowledgment of the issue and impact (NO 'I'm sorry you feel that way'), clear explanation of what happened if appropriate and not defensive, what you're doing to fix it immediately, what you're doing to prevent it from happening again, specific next steps with timeline. Non-negotiables: 150-250 words, empathetic throughout but not groveling, specific resolution not vague promises, no corporate speak. Never blame the customer. Do not: 'As per our policy', defensive language, empty apologies without action, non-committal resolution timelines.",
+    "input_format": "Text",
+    "output_format": "Email",
+    "tone": "Empathetic and supportive",
+    "additional_instructions": ""
+  },
+  {
+    "id": "customer-onboarding-064",
+    "name": "Customer Onboarding Message",
+    "role": "Customer Success Manager",
+    "goal": "Write a welcoming, practical onboarding email or message for a new customer that sets them up for success and reduces time-to-value. Build it like this: warm, genuine welcome (not 'Welcome to the [Company] family'), what they can do right now (1 immediate action), what they can do in their first week (3-5 key actions in order of priority), where to get help (specific resources), invitation to connect. Non-negotiables: 250-350 words, action-oriented, no information overload — prioritize the 3-5 most important things only. Make it feel like a human wrote it, not a CRM system. Make sure to include: a specific example of what success looks like. Do not: feature dumps, sending every link in the knowledge base, 'If you have any questions don't hesitate to reach out' without saying how.",
+    "input_format": "Product Details",
+    "output_format": "Email",
+    "tone": "Warm, conversational, and approachable",
+    "additional_instructions": ""
+  },
+  {
+    "id": "legal-terms-summary-065",
+    "name": "Summarize Legal Terms (Plain English)",
+    "role": "Legal Advisor",
+    "goal": "Translate provided legal terms, contract clauses, or legal documents into plain English that a non-lawyer can understand and make decisions from. Build it like this: document/section overview (what type of document this is, key parties), plain-English summary of each major section, highlighted key obligations (what YOU must do), highlighted key rights (what you're entitled to), red flags or unusual clauses worth noting, questions to ask a lawyer before signing. Non-negotiables: non-legal language throughout, specifically flag any auto-renewal, limitation of liability, arbitration, or data use clauses. Note that this is an educational summary, not legal advice — recommend consulting a licensed attorney for legal decisions. Do not: oversimplifying to the point of inaccuracy, missing important clauses.",
+    "input_format": "Text",
+    "output_format": "Bullet List",
+    "tone": "Clear and explanatory",
+    "additional_instructions": ""
+  },
+  {
+    "id": "legal-nda-066",
+    "name": "Draft an NDA (Non-Disclosure Agreement)",
+    "role": "Legal Advisor",
+    "goal": "Draft a basic Non-Disclosure Agreement template for the described parties and situation. Include standard NDA clauses: definition of confidential information, exclusions from confidentiality obligations, obligations of receiving party, term and termination, remedies for breach, governing law placeholder, signature block. Non-negotiables: clearly mark all placeholder text in [BRACKETS] that needs to be filled in, include a disclaimer that this is a template and should be reviewed by a qualified attorney before use, specify whether it's mutual or one-way NDA. Make sure to include: standard boilerplate clauses (entire agreement, severability, waiver). Note: this is a starting template, not legal advice.",
+    "input_format": "Text",
+    "output_format": "Paragraph",
+    "tone": "Formal and structured",
+    "additional_instructions": ""
+  },
+  {
+    "id": "performance-review-067",
+    "name": "Write a Performance Review",
+    "role": "Project Manager",
+    "goal": "Write a balanced, constructive performance review for a team member. Build it like this: opening summary of overall performance, strengths demonstrated with specific examples (at least 2-3), areas for development with specific, actionable feedback and examples (at least 1-2), goals achieved vs not achieved, recommended goals for next review period, overall rating with justification. Non-negotiables: specific examples for every claim (not 'John is a great communicator' — describe a situation), constructive and growth-oriented for development areas, balanced and fair, no em dashes. Development feedback must be actionable and forward-looking, not just critical. Do not: vague praise, surprise negative feedback (nothing here should be new to the employee), protected class references.",
+    "input_format": "Text",
+    "output_format": "Paragraph",
+    "tone": "Formal and structured",
+    "additional_instructions": ""
+  },
+  {
+    "id": "creative-story-068",
+    "name": "Write a Short Story",
+    "role": "Creative Writer",
+    "goal": "Write an engaging short story with a clear narrative arc. Build it like this: opening that drops the reader into the action (no long setup), an engaging protagonist with a clear want and obstacle, rising tension through a specific conflict or decision, a climax that resolves the core tension in a satisfying or surprising way, a resonant ending that leaves the reader with something to think about. Non-negotiables: 500-800 words, show don't tell (demonstrate character through action and dialogue, not description), specific sensory details that ground the reader, no clichéd openings ('It was a dark and stormy night'). The ending must feel earned — not coincidental. Do not: long backstory exposition before the action starts, passive voice, purple prose.",
+    "input_format": "Topic",
+    "output_format": "Paragraph",
+    "tone": "Narrative and storytelling",
+    "additional_instructions": ""
+  },
+  {
+    "id": "creative-poem-069",
+    "name": "Write a Poem",
+    "role": "Creative Writer",
+    "goal": "Write an original poem on the given subject with genuine emotional resonance. The poem should make the reader feel something — not just describe something. Use concrete, specific imagery rather than abstract concepts. Build it like this: the poem itself, followed by a brief note on the form chosen (free verse, sonnet, haiku series, etc.) and any intentional techniques used. Non-negotiables: avoid clichés (love is a rose, time is a thief), use unexpected comparisons and fresh language, every word must earn its place. Prioritize emotional truth over technical perfection. If the subject calls for lightness, be playful and surprising. Do not: greeting-card sentimentality, forced rhymes that weaken the poem, padding lines to meet a length target.",
+    "input_format": "Topic",
+    "output_format": "Paragraph",
+    "tone": "Narrative and storytelling",
+    "additional_instructions": ""
+  },
+  {
+    "id": "research-paper-summary-070",
+    "name": "Summarize a Research Paper",
+    "role": "AI Researcher",
+    "goal": "Provide a rigorous summary of an academic research paper for technical and non-technical audiences. Build it like this: research question/hypothesis (what problem are they solving), methodology (how they studied it — brief but specific), primary findings with quantitative results, statistical significance, limitations the authors acknowledge, practical implications for the field or real-world applications. Non-negotiables: 400-600 words, factually accurate and technically precise, cite specific figures and statistics from the paper, no editorializing beyond what the paper states. Make sure to include: the bottom line for practitioners ('what this means for you if you work in X field'). Do not: speculation beyond the paper's scope, oversimplifying methodology, losing technical accuracy for readability.",
+    "input_format": "Text",
+    "output_format": "Executive Summary",
+    "tone": "Precise and technical",
+    "additional_instructions": ""
+  },
+  {
+    "id": "case-study-071",
+    "name": "Generate a Case Study Summary",
+    "role": "Business Analyst",
+    "goal": "Summarize a business case study for stakeholders using a structured analytical framework. Build it like this: company/situation background, challenge with quantified impact (what was broken and by how much), solution approach with specific tactics used, measurable results with before/after metrics, key lessons and what made this approach work. Non-negotiables: 400-500 words, data-driven and specific, no vague outcomes like 'improved efficiency' without numbers (include percentages, dollar amounts, time saved), third-person objective voice. Format: clear section headers, results in bullet points. Do not: promotional language, made-up metrics, missing the 'why it worked' lesson.",
+    "input_format": "Text",
+    "output_format": "Case Study Summary",
+    "tone": "Analytical and data-driven",
+    "additional_instructions": ""
+  },
+  {
+    "id": "project-checklist-072",
+    "name": "Project Launch Checklist",
+    "role": "Project Manager",
+    "goal": "Create a comprehensive, phase-based checklist for launching a project. Build it like this: pre-launch phase (planning, approvals, setup), build/preparation phase, testing and quality assurance phase, launch day checklist, post-launch monitoring checklist. Each item should be a specific, completable action with a clear definition of done. Non-negotiables: 20-35 items total across all phases, each item starts with an action verb, critical path items marked with [CRITICAL], checkbox format, no emojis. Make sure to include: rollback plan step, stakeholder communication checkpoints, go/no-go decision criteria. Do not: vague items like 'check everything', combining multiple actions in one item, missing post-launch monitoring.",
+    "input_format": "Task Details",
+    "output_format": "Checklist",
+    "tone": "Concise and direct",
+    "additional_instructions": ""
+  },
+  {
+    "id": "product-roadmap-073",
+    "name": "Product Roadmap Summary",
+    "role": "Startup Advisor",
+    "goal": "Write a clear, strategic product roadmap summary for stakeholder communication. Build it like this: product vision (where we're going, 1-2 sentences), current state (where we are now and why), Now/Next/Later framework (what we're building now, what's coming next quarter, what's on the horizon), success metrics for each phase, key dependencies and risks. Non-negotiables: outcome-focused, not feature-focused (describe the value delivered, not just the feature), honest about trade-offs and what's NOT being built, 300-400 words plus the visual roadmap table. Do not: specific dates without confidence levels, feature lists without business rationale, treating the roadmap as a contract.",
+    "input_format": "Text",
+    "output_format": "Markdown Table",
+    "tone": "Authoritative and professional",
+    "additional_instructions": ""
+  },
+  {
+    "id": "translate-text-074",
+    "name": "Translate Text",
+    "role": "Educator",
+    "goal": "Translate the provided text accurately while preserving its meaning, tone, and cultural context. Go beyond literal translation — adapt idioms, cultural references, and nuance to feel natural in the target language. Non-negotiables: preserve the original formality level, maintain proper nouns and brand names unless the target language has a standard equivalent, flag any sections where cultural adaptation was significant with a [Translator Note], preserve formatting. Deliver the translation followed by any important notes about cultural adaptations made. Do not: word-for-word translation that sounds unnatural, changing the tone from formal to casual or vice versa, assuming the reader knows the source culture's references.",
+    "input_format": "Text",
+    "output_format": "Paragraph",
+    "tone": "Neutral and objective",
+    "additional_instructions": ""
+  },
+  {
+    "id": "email-newsletter-subject-lines-075",
+    "name": "Email Subject Lines (A/B Test Set)",
+    "role": "Email Marketing Specialist",
+    "goal": "Generate 10 email subject lines for A/B testing, covering different psychological hooks. Include 2 examples each of: curiosity gap ('The one thing your competitors know that you don't'), benefit-first ('Get 3x more replies to your cold emails'), urgency/scarcity ('Last chance: offer ends tonight'), question-based ('Are you making this email mistake?'), and list-based ('5 things killing your email open rates'). Non-negotiables: each under 50 characters for mobile, no ALL CAPS, no spam trigger words ('FREE', 'GUARANTEED', '!!!'), include a preview text suggestion for each. Do not: misleading subject lines, clickbait that doesn't deliver in the email, identical structures that make the test meaningless.",
+    "input_format": "Topic",
+    "output_format": "Bullet List",
+    "tone": "Persuasive and confident",
+    "additional_instructions": ""
+  },
+  {
+    "id": "mental-health-journal-076",
+    "name": "Journaling Prompts for Mental Wellness",
+    "role": "Therapist",
+    "goal": "Generate a set of thoughtful, therapeutic journaling prompts designed to promote self-reflection, emotional processing, and mental wellness. Build it like this: 8-12 prompts organized by theme (self-awareness, gratitude and positivity, processing difficult emotions, future self and goals). Each prompt should open a door to genuine reflection — not surface-level positivity. Non-negotiables: prompts should be open-ended and non-judgmental, accessible regardless of mental health experience, warmly framed. Include a brief intro note reminding the reader these are for personal reflection and that professional support is available if needed. Do not: prompts that could retraumatize, forcing positivity when processing difficulty, clinical language.",
+    "input_format": "Topic",
+    "output_format": "Bullet List",
+    "tone": "Empathetic and supportive",
+    "additional_instructions": ""
+  },
+  {
+    "id": "seo-meta-tags-077",
+    "name": "Write SEO Meta Tags",
+    "role": "SEO Expert",
+    "goal": "Write optimized meta title and meta description tags for a webpage. For the title: include the primary keyword near the front, be under 60 characters, be specific and compelling enough to get clicks over competitors. For the description: include the primary keyword naturally, be under 155 characters, summarize the page value and include a soft CTA. Provide 3 title and 3 description variations to test. Non-negotiables: no keyword stuffing, must be genuinely descriptive of the page content, avoid duplicate meta tags. Include character count for each. Do not: clickbait titles that don't match content, descriptions that are just keyword lists, exceeding character limits.",
+    "input_format": "Text",
+    "output_format": "Bullet List",
+    "tone": "Concise and direct",
+    "additional_instructions": ""
+  },
+  {
+    "id": "sales-objection-078",
+    "name": "Handle Sales Objections",
+    "role": "Sales Executive",
+    "goal": "Write natural, non-pushy responses to common sales objections. For each objection provided: acknowledge the concern genuinely (not dismissively), reframe the objection as a question to understand it better or address the underlying concern, provide a concise response that adds value and moves the conversation forward, offer a low-pressure next step. Build it like this: objection, response script, brief note on the psychology behind why this works. Non-negotiables: responses must feel human and conversational — not scripted, acknowledge that no is a valid answer, no pressure tactics. Make sure to include: a question to ask to uncover the real objection behind the surface objection. Do not: 'That's a great question!', immediately launching into a counter-pitch, ignoring the prospect's actual concern.",
+    "input_format": "Text",
+    "output_format": "Paragraph",
+    "tone": "Warm, conversational, and approachable",
+    "additional_instructions": ""
+  },
+  {
+    "id": "prompt-engineer-system-prompt-079",
+    "name": "Write a System Prompt",
+    "role": "Prompt Engineer",
+    "goal": "Write a clear, effective system prompt for an AI assistant given the described use case, persona, and constraints. Build it like this: persona definition (who the AI is, its purpose, and character), core capabilities and scope, explicit boundaries and what it should NOT do, tone and communication style guidelines, output format preferences, edge case handling instructions. Non-negotiables: use specific, concrete language — avoid vague instructions like 'be helpful', test mentally by asking: would the dumbest interpretation of this instruction cause a problem? Include at least 3 explicit 'do not' rules. The prompt should fully constrain the AI's behavior so there are no surprises. Do not: over-constraining to the point of being unhelpful, missing critical edge cases, contradictory instructions.",
+    "input_format": "Text",
+    "output_format": "Paragraph",
+    "tone": "Precise and technical",
+    "additional_instructions": ""
+  },
+  {
+    "id": "prompt-engineer-improve-080",
+    "name": "Improve a Prompt",
+    "role": "Prompt Engineer",
+    "goal": "Analyze the provided prompt and rewrite it to get significantly better results from an AI model. First: diagnose the problems (too vague, missing context, ambiguous intent, no output format specified, missing constraints). Then: rewrite the improved version with: clear role assignment, specific goal, output format requirements, relevant constraints, and examples if helpful. Build it like this: original prompt, diagnosis of issues (3-5 specific problems), improved version, explanation of each change made. Non-negotiables: improved prompt must produce better, more consistent results — test it mentally against different AI responses. Do not: making the prompt so long it becomes unwieldy, adding constraints that over-narrow the output, changing the intent of the original.",
+    "input_format": "Text",
+    "output_format": "Paragraph",
+    "tone": "Analytical and data-driven",
+    "additional_instructions": ""
+  }
+]

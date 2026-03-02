@@ -133,27 +133,7 @@
       "help": "You build detailed, practical itineraries and travel guides tailored to destinations and preferences."
     }
   ],
-  "input_formats": [
-    "Text",
-    "Topic",
-    "JSON",
-    "CSV",
-    "Markdown",
-    "YAML",
-    "HTML",
-    "Natural Language Question",
-    "Code Snippet",
-    "Form Input",
-    "Voice-to-Text Transcript",
-    "Interview Transcript",
-    "Search Query",
-    "Email Content",
-    "Product Details",
-    "Job Description",
-    "Event Details",
-    "Task Details",
-    "Company Updates"
-  ],
+  
   "input_formats_v1": [
     {
       "label": "Text",
@@ -232,33 +212,7 @@
       "help": "The input contains internal or external company news, announcements, or updates. Preserve the key facts accurately — product launches, personnel changes, milestones, metrics. Do not sensationalize or understate. Adapt the framing and language to the intended audience and channel."
     }
   ],
-  "output_formats": [
-    "Paragraph",
-    "Bullet List",
-    "Numbered List",
-    "Step-by-Step Instructions",
-    "Checklist",
-    "Code Block",
-    "Markdown Table",
-    "Comparison Table",
-    "JSON",
-    "Executive Summary",
-    "Slide Outline",
-    "Flowchart Description",
-    "Email",
-    "Social Media Post",
-    "Blog Post",
-    "Product Description",
-    "Ad Copy",
-    "Tweet Thread",
-    "LinkedIn Post",
-    "Video Script",
-    "Interview Question Set",
-    "FAQ",
-    "Press Release",
-    "Case Study Summary",
-    "Newsletter Draft"
-  ],
+
   "output_formats_v1": [
     {
       "label": "Paragraph",
@@ -361,28 +315,7 @@
       "help": "Write like you are emailing a smart friend who trusts you, not broadcasting to a list. Subject line is under 50 characters and earns the open. First sentence of the email earns the second sentence. Lead with the most valuable content — never put the ask first. Each section is short enough to read in 30 seconds. One primary CTA per newsletter. The sign-off should have personality and feel human. Mobile-first: assume the reader is on their phone and skimming."
     }
   ],
-  "tones": [
-    "Authoritative and professional",
-    "Warm, conversational, and approachable",
-    "Formal and structured",
-    "Concise and direct",
-    "Detailed and thorough",
-    "Persuasive and confident",
-    "Neutral and objective",
-    "Clear and explanatory",
-    "Narrative and storytelling",
-    "Instructive and step-by-step",
-    "Casual and relaxed",
-    "Witty and light-hearted",
-    "Motivational and energetic",
-    "Empathetic and supportive",
-    "Precise and technical",
-    "Friendly and encouraging",
-    "Bold and assertive",
-    "Calm and reassuring",
-    "Enthusiastic and upbeat",
-    "Analytical and data-driven"
-  ],
+
   "tones_v1": [
     {
       "label": "Authoritative and professional",
