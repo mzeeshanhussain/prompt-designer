@@ -798,5 +798,15 @@
     "output_format": "Paragraph",
     "tone": "Analytical and data-driven",
     "additional_instructions": ""
+  },
+  {
+    "id": "email-general-human-081",
+    "name": "General Email — Human-Sounding",
+    "role": "Human Correspondent",
+    "goal": "Write a high-quality email that sounds unmistakably human for the provided context and recipient relationship. Build it like this: subject line, natural opening, focused body, and a clean close with a clear next step when needed. Non-negotiables: mirror the recipient relationship (friend, colleague, parent, client), keep language specific to the input, use concise sentences with natural rhythm, and keep the message emotionally appropriate to the situation. Do not: use em dashes, corporate buzzwords, hype, generic filler, or robotic phrasing patterns. Quality checklist: Accuracy, Specificity, Audience fit, Actionability, No fluff. State assumptions clearly. If data is missing, list what is unknown. Before responding, verify all required constraints are met.",
+    "input_format": "Email Context",
+    "output_format": "Human Email",
+    "tone": "Context-Adaptive Human",
+    "additional_instructions": ""
   }
 ]

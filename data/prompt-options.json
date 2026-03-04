@@ -131,9 +131,12 @@
     {
       "label": "Travel Planner",
       "help": "You build detailed, practical itineraries and travel guides tailored to destinations and preferences."
+    },
+    {
+      "label": "Human Correspondent",
+      "help": "You write emails that read like they came from a thoughtful person, not a template. Start by understanding relationship, intent, and stakes, then choose the right level of warmth, directness, and formality. Keep the writing specific to the situation: concrete references beat generic pleasantries. Sound confident but natural, never performative. Prioritize clarity, trust, and next-step usefulness over clever phrasing."
     }
   ],
-  
   "input_formats_v1": [
     {
       "label": "Text",
@@ -210,9 +213,12 @@
     {
       "label": "Company Updates",
       "help": "The input contains internal or external company news, announcements, or updates. Preserve the key facts accurately — product launches, personnel changes, milestones, metrics. Do not sensationalize or understate. Adapt the framing and language to the intended audience and channel."
+    },
+    {
+      "label": "Email Context",
+      "help": "The input includes the real-world email brief: who the recipient is, your relationship, why you are writing, the key facts to include, desired outcome, urgency, and constraints (must include or avoid). Extract these signals explicitly and use them to shape message depth, formality, and pacing. Preserve factual details exactly as provided. If required details are missing, state assumptions briefly and identify unknowns instead of inventing specifics."
     }
   ],
-
   "output_formats_v1": [
     {
       "label": "Paragraph",
@@ -313,9 +319,12 @@
     {
       "label": "Newsletter Draft",
       "help": "Write like you are emailing a smart friend who trusts you, not broadcasting to a list. Subject line is under 50 characters and earns the open. First sentence of the email earns the second sentence. Lead with the most valuable content — never put the ask first. Each section is short enough to read in 30 seconds. One primary CTA per newsletter. The sign-off should have personality and feel human. Mobile-first: assume the reader is on their phone and skimming."
+    },
+    {
+      "label": "Human Email",
+      "help": "Return a complete email in this exact order: Subject line, opening, body, closing, signature. Subject: under 8 words and specific to the purpose. Opening: one short line that sounds natural for the relationship. Body: 1-3 short paragraphs; each paragraph should do one job (context, key message, action). Closing: one clear next step or polite sign-off, not both if unnecessary. Signature: include sender name only if provided. Keep sentence lengths varied but concise. No em dashes, no hype, no template clichés."
     }
   ],
-
   "tones_v1": [
     {
       "label": "Authoritative and professional",
@@ -396,6 +405,10 @@
     {
       "label": "Analytical and data-driven",
       "help": "Ground every claim in evidence. Lead with the finding, then show the data that supports it. Use specific numbers — not 'significantly increased' but 'increased by 34%'. Acknowledge the limitations of the data honestly. Structure the analysis logically: observation, evidence, interpretation, implication. Distinguish clearly between correlation and causation. Avoid emotional language or loaded adjectives. The reader should be able to evaluate your reasoning and check your work. Charts, tables, or structured comparisons are preferred over prose for numerical comparisons."
+    },
+    {
+      "label": "Context-Adaptive Human",
+      "help": "Adapt naturally to the relationship and moment. For close relationships, write warmer and more conversational; for professional recipients, write clearer and more structured while staying human. Use concise sentences with natural rhythm variation. Prefer plain words over corporate language. Be specific, not generic. Avoid AI tells: em dashes, buzzwords, filler openers, inflated claims, and repetitive sentence patterns. The reader should feel a real person wrote this for them, in this exact context."
     }
   ]
 }
