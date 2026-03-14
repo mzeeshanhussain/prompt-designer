@@ -1,7 +1,7 @@
 [
   {
     "id": "linkedin-post-001",
-    "name": "LinkedIn Post — Thought Leadership",
+    "name": "LinkedIn Post: Thought Leadership",
     "role": "Social Media Manager",
     "goal": "Create a professional LinkedIn post for executives and thought leaders. Open with a compelling hook or counterintuitive insight that stops the scroll. Build it like this: 3-5 short paragraphs (not bullets), include a personal story or specific data point, one clear key takeaway, and a thought-provoking question to drive engagement. Non-negotiables: no emojis, no hashtags in body (max 3 at end), avoid clickbait, 150-300 words. End with a clear call-to-action or discussion prompt. Do not: sales language, buzzwords like 'game-changer' or 'disruptive', em dashes, generic advice anyone could have written.\n\nQuality checklist: Accuracy, Specificity, Audience fit, Actionability, No fluff.\nState assumptions clearly. If data is missing, list what's unknown.\nIf input is incomplete, return best draft + 3 clarifying questions.\nBefore responding, verify all required constraints are met.",
     "input_format": "Topic",
@@ -13,7 +13,7 @@
   },
   {
     "id": "linkedin-post-002",
-    "name": "LinkedIn Post — New Job Announcement",
+    "name": "LinkedIn Post: New Job Announcement",
     "role": "Social Media Manager",
     "goal": "Write a genuine, non-cringe LinkedIn post announcing a new job or role. Avoid the typical 'I'm thrilled to announce' opener — start with something real, like what drew you to the role or what you're walking away from. Build it like this: personal hook (1-2 sentences), what the new role is and company (1 sentence), what excites you about it (2-3 sentences with specifics), who you want to thank (brief, not a Grammy speech), optional call-to-action. Non-negotiables: 100-200 words, first-person, no corporate speak, no emojis, authentic tone. Do not: hollow gratitude, name-dropping for clout, making it about your resume.\n\nQuality checklist: Accuracy, Specificity, Audience fit, Actionability, No fluff.\nState assumptions clearly. If data is missing, list what's unknown.\nIf input is incomplete, return best draft + 3 clarifying questions.\nBefore responding, verify all required constraints are met.",
     "input_format": "Text",
@@ -25,7 +25,7 @@
   },
   {
     "id": "linkedin-post-003",
-    "name": "LinkedIn Post — Lesson Learned",
+    "name": "LinkedIn Post: Lesson Learned",
     "role": "Social Media Manager",
     "goal": "Write a LinkedIn post sharing a hard-earned professional lesson in a way that feels real and relatable, not preachy. Open with the mistake or failure, not the lesson. Build it like this: what happened (2-3 sentences, specific details), what you thought at the time, what you learned and why it matters (the actual insight — not vague), one piece of advice for others in the same position. Non-negotiables: 200-250 words, first-person, conversational, no emojis, no listicles. The lesson should be specific and non-obvious — not 'work hard' or 'be resilient'. Do not: humble bragging disguised as vulnerability, vague lessons, generic advice.\n\nQuality checklist: Accuracy, Specificity, Audience fit, Actionability, No fluff.\nState assumptions clearly. If data is missing, list what's unknown.\nIf input is incomplete, return best draft + 3 clarifying questions.\nBefore responding, verify all required constraints are met.",
     "input_format": "Topic",
@@ -37,7 +37,7 @@
   },
   {
     "id": "linkedin-post-004",
-    "name": "LinkedIn Post — Industry Insight",
+    "name": "LinkedIn Post: Industry Insight",
     "role": "Marketing Strategist",
     "goal": "Write a data-driven LinkedIn post sharing a sharp industry insight or trend observation. Lead with a bold statement or surprising statistic. Build it like this: bold opening claim (1 sentence), evidence and context (2-3 sentences), implication for practitioners, your specific take on what it means, question for the audience. Non-negotiables: 150-250 words, no emojis, include at least one specific data point or real-world example, max 3 hashtags at end. The insight must be specific enough that someone in the industry would learn something — not something everyone already knows. Do not: recycled talking points, vague observations, em dashes.\n\nQuality checklist: Accuracy, Specificity, Audience fit, Actionability, No fluff.\nState assumptions clearly. If data is missing, list what's unknown.\nIf input is incomplete, return best draft + 3 clarifying questions.\nBefore responding, verify all required constraints are met.",
     "input_format": "Topic",
@@ -109,7 +109,7 @@
   },
   {
     "id": "cover-letter-010",
-    "name": "Cover Letter — General Application",
+    "name": "Cover Letter: General Application",
     "role": "Career Coach",
     "goal": "Write a tailored cover letter that demonstrates fit for the specific role. Build it like this: opening paragraph with position name and a hook explaining genuine interest (not 'I am writing to apply for'), 2-3 paragraphs matching specific experience to job requirements with concrete examples and quantifiable achievements, closing with enthusiasm and a clear CTA. Non-negotiables: 300-400 words, no emojis, no generic templates. Make sure to include: specific company research, concrete examples with metrics (percentages, dollar amounts, team sizes), keywords from the job description. Do not: repeating the resume verbatim, em dashes, clichés like 'team player' or 'hard worker' without evidence.\n\nQuality checklist: Accuracy, Specificity, Audience fit, Actionability, No fluff.\nState assumptions clearly. If data is missing, list what's unknown.\nIf input is incomplete, return best draft + 3 clarifying questions.\nBefore responding, verify all required constraints are met.",
     "input_format": "Job Description",
@@ -121,7 +121,7 @@
   },
   {
     "id": "cover-letter-career-change-011",
-    "name": "Cover Letter — Career Change",
+    "name": "Cover Letter: Career Change",
     "role": "Career Coach",
     "goal": "Write a cover letter for someone switching industries or roles. The biggest challenge is to address the gap confidently, not defensively. Build it like this: open with the transferable value you bring (not an apology for the career change), bridge your past experience to the new role with specific skills and achievements, show genuine knowledge of the new industry, close with enthusiasm and next steps. Non-negotiables: 300-400 words, no emojis, address the career change directly and positively, use the job description keywords. Frame past experience as an asset, not a liability. Do not: 'Although I don't have direct experience in X', starting with the gap, over-explaining the switch.\n\nQuality checklist: Accuracy, Specificity, Audience fit, Actionability, No fluff.\nState assumptions clearly. If data is missing, list what's unknown.\nIf input is incomplete, return best draft + 3 clarifying questions.\nBefore responding, verify all required constraints are met.",
     "input_format": "Job Description",
@@ -169,7 +169,7 @@
   },
   {
     "id": "product-description-015",
-    "name": "Product Description — E-Commerce",
+    "name": "Product Description: E-Commerce",
     "role": "Copywriter",
     "goal": "Write a compelling product description that drives conversions. Build it like this: attention-grabbing opening line that highlights the main benefit (not the feature), 2-3 short paragraphs covering features-as-benefits and specific use cases, key specifications in a scannable bullet list, strong closing that addresses hesitation or creates mild urgency. Non-negotiables: 150-250 words, customer-first perspective, no emojis. Answer: who is this for, what problem does it solve, why is it better. Do not: leading with technical specs, generic descriptions that could be any product, unsubstantiated claims, em dashes.\n\nQuality checklist: Accuracy, Specificity, Audience fit, Actionability, No fluff.\nState assumptions clearly. If data is missing, list what's unknown.\nIf input is incomplete, return best draft + 3 clarifying questions.\nBefore responding, verify all required constraints are met.",
     "input_format": "Product Details",
@@ -289,7 +289,7 @@
   },
   {
     "id": "lesson-plan-elementary-025",
-    "name": "Lesson Plan — Elementary School (K-5)",
+    "name": "Lesson Plan: Elementary School (K-5)",
     "role": "Educator",
     "goal": "Develop an engaging lesson plan for elementary school students (grades K-5) following best practices in early childhood education. Build it like this: grade-specific learning objectives using Bloom's taxonomy action verbs, materials needed, energetic warm-up activity (5 minutes), direct instruction with visual or hands-on component (10-15 min), guided practice with teacher support (10 min), independent or partner activity (10 min), formative check (5 min), fun closure. Non-negotiables: age-appropriate language and concepts, no jargon, differentiation strategies for early finishers and struggling learners, no emojis in plan. Make sure to include: movement breaks, visual learning elements, one assessment method. Do not: passive lecture formats, activities lasting more than 15 minutes without a check-in.\n\nQuality checklist: Accuracy, Specificity, Audience fit, Actionability, No fluff.\nState assumptions clearly. If data is missing, list what's unknown.\nIf input is incomplete, return best draft + 3 clarifying questions.\nBefore responding, verify all required constraints are met.",
     "input_format": "Topic",
@@ -301,7 +301,7 @@
   },
   {
     "id": "lesson-plan-middle-026",
-    "name": "Lesson Plan — Middle School (6-8)",
+    "name": "Lesson Plan: Middle School (6-8)",
     "role": "Educator",
     "goal": "Create a rigorous, engaging lesson plan for middle school students (grades 6-8) that balances academic challenge with adolescent engagement strategies. Build it like this: standards-aligned learning objectives, materials, hook activity connecting to real-world relevance (5-10 min), instruction with scaffolded questioning (15-20 min), collaborative activity (15 min), independent practice (10 min), exit ticket or formative assessment. Non-negotiables: 45-50 minute period, use student-centered approaches, include at least one technology or multimedia element, no emojis. Make sure to include: differentiation strategies, connection to real-world application, academic vocabulary list. Do not: lecture-only instruction, copying and pasting from textbooks, activities without clear learning purpose.\n\nQuality checklist: Accuracy, Specificity, Audience fit, Actionability, No fluff.\nState assumptions clearly. If data is missing, list what's unknown.\nIf input is incomplete, return best draft + 3 clarifying questions.\nBefore responding, verify all required constraints are met.",
     "input_format": "Topic",
@@ -313,7 +313,7 @@
   },
   {
     "id": "lesson-plan-high-school-027",
-    "name": "Lesson Plan — High School (9-12)",
+    "name": "Lesson Plan: High School (9-12)",
     "role": "Educator",
     "goal": "Design a challenging lesson plan for high school students (grades 9-12) that develops higher-order thinking skills. Build it like this: standards-aligned objectives using analysis/evaluation/creation-level Bloom's verbs, materials, engaging launch activity with a complex question or problem (10 min), direct instruction or Socratic discussion (20 min), application activity (20 min), synthesis or reflection (10 min). Non-negotiables: 50-60 minute period, include critical thinking, argumentation, or inquiry components, differentiation for IEP/ELL students, no emojis. Make sure to include: college-readiness skills, academic rigor, one formative and one summative assessment idea. Do not: drill-and-practice only, activities that don't push beyond recall and comprehension.\n\nQuality checklist: Accuracy, Specificity, Audience fit, Actionability, No fluff.\nState assumptions clearly. If data is missing, list what's unknown.\nIf input is incomplete, return best draft + 3 clarifying questions.\nBefore responding, verify all required constraints are met.",
     "input_format": "Topic",
@@ -325,7 +325,7 @@
   },
   {
     "id": "lesson-plan-college-028",
-    "name": "Lesson Plan — College / University",
+    "name": "Lesson Plan: College / University",
     "role": "Educator",
     "goal": "Design a college-level lesson or lecture plan that fosters critical thinking, discussion, and real-world application. Build it like this: learning outcomes mapped to course objectives, pre-class reading or activity, lecture with embedded active learning breaks (think-pair-share, polls, case analysis) every 15-20 minutes, discussion facilitation questions, application exercise, wrap-up and preview of next class. Non-negotiables: 75-90 minute session, include Socratic questioning techniques, promote student agency and discussion, no emojis. Make sure to include: primary sources or scholarly references, real-world examples, higher-order analysis tasks. Do not: 90-minute lecture with no interaction, low-level recall questions only.\n\nQuality checklist: Accuracy, Specificity, Audience fit, Actionability, No fluff.\nState assumptions clearly. If data is missing, list what's unknown.\nIf input is incomplete, return best draft + 3 clarifying questions.\nBefore responding, verify all required constraints are met.",
     "input_format": "Topic",
@@ -709,7 +709,7 @@
   },
   {
     "id": "startup-pitch-060",
-    "name": "Startup Pitch — Elevator Pitch",
+    "name": "Startup Pitch: Elevator Pitch",
     "role": "Startup Advisor",
     "goal": "Write a compelling 60-second elevator pitch for a startup. Build it like this: the hook (what surprising problem you solve or what you do in one arresting sentence), the problem (make the pain vivid and relatable), your solution (the 'how' in plain English), the traction or proof point (one data point, customer story, or market fact), the ask or CTA. Non-negotiables: 150-180 words when spoken naturally, zero jargon, should make a non-expert lean in and ask 'tell me more'. Every sentence must earn its place — if it can be cut without losing meaning, cut it. Do not: starting with 'We are a platform that...', burying the hook, using words like 'disruptive', 'synergy', 'paradigm shift'.\n\nQuality checklist: Accuracy, Specificity, Audience fit, Actionability, No fluff.\nState assumptions clearly. If data is missing, list what's unknown.\nIf input is incomplete, return best draft + 3 clarifying questions.\nBefore responding, verify all required constraints are met.",
     "input_format": "Text",
