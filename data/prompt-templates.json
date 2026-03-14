@@ -7,7 +7,9 @@
     "input_format": "Topic",
     "output_format": "LinkedIn Post",
     "tone": "Authoritative and professional",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Share your topic, audience, and one personal example or data point to mention.",
+    "additional_instructions_placeholder": "Optional: add desired length, key takeaway, and up to 3 hashtags."
   },
   {
     "id": "linkedin-post-002",
@@ -17,7 +19,9 @@
     "input_format": "Text",
     "output_format": "LinkedIn Post",
     "tone": "Warm, conversational, and approachable",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Paste the new role, company, and why you took it.",
+    "additional_instructions_placeholder": "Optional: add who to thank and the tone (humble, excited, reflective)."
   },
   {
     "id": "linkedin-post-003",
@@ -27,7 +31,9 @@
     "input_format": "Topic",
     "output_format": "LinkedIn Post",
     "tone": "Narrative and storytelling",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Describe the mistake, what happened, and the lesson you learned.",
+    "additional_instructions_placeholder": "Optional: add your industry and one practical tip you want readers to apply."
   },
   {
     "id": "linkedin-post-004",
@@ -37,7 +43,9 @@
     "input_format": "Topic",
     "output_format": "LinkedIn Post",
     "tone": "Analytical and data-driven",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Give the trend/topic plus one stat, source, or real example.",
+    "additional_instructions_placeholder": "Optional: add your point of view and who the post is for."
   },
   {
     "id": "email-response-005",
@@ -47,7 +55,9 @@
     "input_format": "Email Content",
     "output_format": "Email",
     "tone": "Formal and structured",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Paste the email you received and what outcome you want.",
+    "additional_instructions_placeholder": "Optional: add deadline, level of formality, and points to include or avoid."
   },
   {
     "id": "email-cold-outreach-006",
@@ -57,7 +67,9 @@
     "input_format": "Text",
     "output_format": "Email",
     "tone": "Concise and direct",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Share who you are emailing, what they care about, and your offer in one line.",
+    "additional_instructions_placeholder": "Optional: add a personalized opener detail and your preferred CTA."
   },
   {
     "id": "email-follow-up-007",
@@ -67,7 +79,9 @@
     "input_format": "Email Content",
     "output_format": "Email",
     "tone": "Concise and direct",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Paste your original email and one new value point for this follow-up.",
+    "additional_instructions_placeholder": "Optional: add your exact CTA and max word count."
   },
   {
     "id": "blog-post-008",
@@ -77,7 +91,9 @@
     "input_format": "Topic",
     "output_format": "Blog Post",
     "tone": "Friendly and encouraging",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Provide the topic, target keyword, and reader type.",
+    "additional_instructions_placeholder": "Optional: add must-cover points, examples to include, and preferred word count."
   },
   {
     "id": "blog-post-listicle-009",
@@ -87,7 +103,9 @@
     "input_format": "Topic",
     "output_format": "Blog Post",
     "tone": "Casual and relaxed",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Give the list topic and who the list is for.",
+    "additional_instructions_placeholder": "Optional: set number of items and include any examples/case studies to mention."
   },
   {
     "id": "cover-letter-010",
@@ -97,7 +115,9 @@
     "input_format": "Job Description",
     "output_format": "Paragraph",
     "tone": "Authoritative and professional",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Paste the job description plus your relevant achievements.",
+    "additional_instructions_placeholder": "Optional: add company details, metrics to highlight, and words to avoid."
   },
   {
     "id": "cover-letter-career-change-011",
@@ -107,7 +127,9 @@
     "input_format": "Job Description",
     "output_format": "Paragraph",
     "tone": "Persuasive and confident",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Paste the job description and your transferable skills from past roles.",
+    "additional_instructions_placeholder": "Optional: add why you are switching and 2-3 achievements with numbers."
   },
   {
     "id": "resume-bullet-012",
@@ -117,7 +139,9 @@
     "input_format": "Text",
     "output_format": "Bullet List",
     "tone": "Concise and direct",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Paste your current resume bullets or job duties.",
+    "additional_instructions_placeholder": "Optional: add results/metrics so bullets can be quantified."
   },
   {
     "id": "social-caption-013",
@@ -127,7 +151,9 @@
     "input_format": "Topic",
     "output_format": "Social Media Post",
     "tone": "Witty and light-hearted",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Share what the post is about and what action you want people to take.",
+    "additional_instructions_placeholder": "Optional: add platform, vibe, emojis/hashtags preference, and word limit."
   },
   {
     "id": "tweet-thread-014",
@@ -137,7 +163,9 @@
     "input_format": "Topic",
     "output_format": "Tweet Thread",
     "tone": "Bold and assertive",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Give the topic, core opinion, and key points for each tweet.",
+    "additional_instructions_placeholder": "Optional: add desired thread length and hashtags to include."
   },
   {
     "id": "product-description-015",
@@ -147,7 +175,9 @@
     "input_format": "Product Details",
     "output_format": "Product Description",
     "tone": "Persuasive and confident",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Paste product name, features, specs, and who it is for.",
+    "additional_instructions_placeholder": "Optional: add price, key objection to handle, and closing CTA style."
   },
   {
     "id": "article-summary-016",
@@ -157,7 +187,9 @@
     "input_format": "Text",
     "output_format": "Executive Summary",
     "tone": "Neutral and objective",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Paste the full article/document text you want summarized.",
+    "additional_instructions_placeholder": "Optional: add audience (execs, students, team) and preferred length."
   },
   {
     "id": "meeting-notes-017",
@@ -167,7 +199,9 @@
     "input_format": "Interview Transcript",
     "output_format": "Bullet List",
     "tone": "Concise and direct",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Paste your raw meeting notes or transcript.",
+    "additional_instructions_placeholder": "Optional: add attendee names, owners, deadlines, and decision highlights."
   },
   {
     "id": "job-description-018",
@@ -177,7 +211,9 @@
     "input_format": "Job Description",
     "output_format": "Paragraph",
     "tone": "Friendly and encouraging",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Share role title, responsibilities, must-have skills, and company context.",
+    "additional_instructions_placeholder": "Optional: add compensation range, location, and culture notes."
   },
   {
     "id": "interview-questions-019",
@@ -187,7 +223,9 @@
     "input_format": "Job Description",
     "output_format": "Interview Question Set",
     "tone": "Authoritative and professional",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Paste the job description and role level.",
+    "additional_instructions_placeholder": "Optional: add skills to test and any red flags to screen for."
   },
   {
     "id": "press-release-020",
@@ -197,7 +235,9 @@
     "input_format": "Event Details",
     "output_format": "Press Release",
     "tone": "Formal and structured",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Provide event details: who, what, when, where, and why it matters.",
+    "additional_instructions_placeholder": "Optional: add quotes, boilerplate text, and media contact info."
   },
   {
     "id": "newsletter-021",
@@ -207,7 +247,9 @@
     "input_format": "Company Updates",
     "output_format": "Newsletter Draft",
     "tone": "Warm, conversational, and approachable",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Share updates/news to include and the main CTA.",
+    "additional_instructions_placeholder": "Optional: add audience segment, subject-line angle, and tone preference."
   },
   {
     "id": "ad-copy-022",
@@ -217,7 +259,9 @@
     "input_format": "Product Details",
     "output_format": "Ad Copy",
     "tone": "Bold and assertive",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Give product/service, audience pain point, and key benefit.",
+    "additional_instructions_placeholder": "Optional: add platform, CTA, and character/word limit."
   },
   {
     "id": "video-script-023",
@@ -227,7 +271,9 @@
     "input_format": "Product Details",
     "output_format": "Video Script",
     "tone": "Enthusiastic and upbeat",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Describe the video topic, audience, and goal.",
+    "additional_instructions_placeholder": "Optional: add video length, style, and any must-say lines."
   },
   {
     "id": "faq-024",
@@ -237,7 +283,9 @@
     "input_format": "Product Details",
     "output_format": "FAQ",
     "tone": "Clear and explanatory",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Share product/service context and common customer questions.",
+    "additional_instructions_placeholder": "Optional: add tone, question count, and topics to prioritize."
   },
   {
     "id": "lesson-plan-elementary-025",
@@ -247,7 +295,9 @@
     "input_format": "Topic",
     "output_format": "Step-by-Step Instructions",
     "tone": "Friendly and encouraging",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Provide subject, grade level, and lesson objective.",
+    "additional_instructions_placeholder": "Optional: add class length, materials, and accommodations needed."
   },
   {
     "id": "lesson-plan-middle-026",
@@ -257,7 +307,9 @@
     "input_format": "Topic",
     "output_format": "Step-by-Step Instructions",
     "tone": "Instructive and step-by-step",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Provide subject, grade level, and specific learning outcomes.",
+    "additional_instructions_placeholder": "Optional: add class duration, assessment style, and resource limits."
   },
   {
     "id": "lesson-plan-high-school-027",
@@ -267,7 +319,9 @@
     "input_format": "Topic",
     "output_format": "Step-by-Step Instructions",
     "tone": "Instructive and step-by-step",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Share course topic, grade, and standards/objectives.",
+    "additional_instructions_placeholder": "Optional: add assignment type, timing, and differentiation needs."
   },
   {
     "id": "lesson-plan-college-028",
@@ -277,7 +331,9 @@
     "input_format": "Topic",
     "output_format": "Step-by-Step Instructions",
     "tone": "Precise and technical",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Share course module topic, learning outcomes, and student level.",
+    "additional_instructions_placeholder": "Optional: add session length, readings, and assessment method."
   },
   {
     "id": "explain-concept-simple-029",
@@ -287,7 +343,9 @@
     "input_format": "Topic",
     "output_format": "Paragraph",
     "tone": "Clear and explanatory",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Paste the concept you want explained in simple terms.",
+    "additional_instructions_placeholder": "Optional: add learner age/background and examples they relate to."
   },
   {
     "id": "study-guide-030",
@@ -297,7 +355,9 @@
     "input_format": "Topic",
     "output_format": "Checklist",
     "tone": "Instructive and step-by-step",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Paste notes/textbook points and exam topics.",
+    "additional_instructions_placeholder": "Optional: add test date, weak areas, and preferred study format."
   },
   {
     "id": "code-debug-031",
@@ -307,7 +367,9 @@
     "input_format": "Code Snippet",
     "output_format": "Code Block",
     "tone": "Precise and technical",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Paste code, error message, and expected behavior.",
+    "additional_instructions_placeholder": "Optional: add language/runtime and what you already tried."
   },
   {
     "id": "code-review-032",
@@ -317,7 +379,9 @@
     "input_format": "Code Snippet",
     "output_format": "Bullet List",
     "tone": "Precise and technical",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Paste code (or PR diff) and context of what it should do.",
+    "additional_instructions_placeholder": "Optional: add focus areas like security, performance, or readability."
   },
   {
     "id": "code-explain-033",
@@ -327,7 +391,9 @@
     "input_format": "Code Snippet",
     "output_format": "Paragraph",
     "tone": "Clear and explanatory",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Paste the code snippet you want explained.",
+    "additional_instructions_placeholder": "Optional: add your skill level and which part is confusing."
   },
   {
     "id": "code-write-function-034",
@@ -337,7 +403,9 @@
     "input_format": "Text",
     "output_format": "Code Block",
     "tone": "Precise and technical",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Describe the function/script goal, inputs, and expected output.",
+    "additional_instructions_placeholder": "Optional: add language, edge cases, and performance needs."
   },
   {
     "id": "code-refactor-035",
@@ -347,7 +415,9 @@
     "input_format": "Code Snippet",
     "output_format": "Code Block",
     "tone": "Precise and technical",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Paste current code and what feels hard to maintain.",
+    "additional_instructions_placeholder": "Optional: add constraints (keep API same, keep behavior same, etc.)."
   },
   {
     "id": "code-unit-tests-036",
@@ -357,7 +427,9 @@
     "input_format": "Code Snippet",
     "output_format": "Code Block",
     "tone": "Precise and technical",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Paste code to test and test framework/language.",
+    "additional_instructions_placeholder": "Optional: add critical cases, mock requirements, and coverage target."
   },
   {
     "id": "code-sql-query-037",
@@ -367,7 +439,9 @@
     "input_format": "Text",
     "output_format": "Code Block",
     "tone": "Precise and technical",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Share table schema, sample rows, and desired result.",
+    "additional_instructions_placeholder": "Optional: add SQL dialect and performance constraints."
   },
   {
     "id": "code-api-docs-038",
@@ -377,7 +451,9 @@
     "input_format": "Text",
     "output_format": "Markdown Table",
     "tone": "Precise and technical",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Paste endpoint details: path, method, auth, request, and response.",
+    "additional_instructions_placeholder": "Optional: add error cases and sample payloads to include."
   },
   {
     "id": "code-regex-039",
@@ -387,7 +463,9 @@
     "input_format": "Text",
     "output_format": "Code Block",
     "tone": "Precise and technical",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Describe the text pattern to match with examples.",
+    "additional_instructions_placeholder": "Optional: add strings that should NOT match and target language."
   },
   {
     "id": "code-architecture-040",
@@ -397,7 +475,9 @@
     "input_format": "Text",
     "output_format": "Paragraph",
     "tone": "Precise and technical",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Describe the system goal, users, scale, and core requirements.",
+    "additional_instructions_placeholder": "Optional: add constraints (budget, cloud, latency, compliance)."
   },
   {
     "id": "code-git-commit-041",
@@ -407,7 +487,9 @@
     "input_format": "Text",
     "output_format": "Paragraph",
     "tone": "Concise and direct",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Paste a short summary of what changed and why.",
+    "additional_instructions_placeholder": "Optional: add ticket number, scope, and commit type preference."
   },
   {
     "id": "code-dockerfile-042",
@@ -417,7 +499,9 @@
     "input_format": "Text",
     "output_format": "Code Block",
     "tone": "Precise and technical",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Share app stack, start command, and dependencies.",
+    "additional_instructions_placeholder": "Optional: add base image preference, ports, and env variables."
   },
   {
     "id": "code-ci-cd-043",
@@ -427,7 +511,9 @@
     "input_format": "Text",
     "output_format": "Code Block",
     "tone": "Precise and technical",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Describe your repo, branch flow, and deploy target.",
+    "additional_instructions_placeholder": "Optional: add test/lint steps, secrets, and rollback expectations."
   },
   {
     "id": "code-data-analysis-044",
@@ -437,7 +523,9 @@
     "input_format": "CSV",
     "output_format": "Code Block",
     "tone": "Analytical and data-driven",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Paste dataset fields and the question you need answered.",
+    "additional_instructions_placeholder": "Optional: add output style (summary/table/chart) and key metrics."
   },
   {
     "id": "code-mock-data-045",
@@ -447,7 +535,9 @@
     "input_format": "JSON",
     "output_format": "JSON",
     "tone": "Precise and technical",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Describe the data model and how many sample records you need.",
+    "additional_instructions_placeholder": "Optional: add realism level, locale, and fields to randomize."
   },
   {
     "id": "recipe-step-by-step-046",
@@ -457,7 +547,9 @@
     "input_format": "Text",
     "output_format": "Step-by-Step Instructions",
     "tone": "Warm, conversational, and approachable",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Share dish name, serving size, and available ingredients.",
+    "additional_instructions_placeholder": "Optional: add dietary needs, spice level, and max cooking time."
   },
   {
     "id": "recipe-by-ingredients-047",
@@ -467,7 +559,9 @@
     "input_format": "Text",
     "output_format": "Step-by-Step Instructions",
     "tone": "Warm, conversational, and approachable",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "List ingredients you already have at home.",
+    "additional_instructions_placeholder": "Optional: add cuisine preference, tools available, and time limit."
   },
   {
     "id": "recipe-meal-plan-048",
@@ -477,7 +571,9 @@
     "input_format": "Text",
     "output_format": "Markdown Table",
     "tone": "Instructive and step-by-step",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Tell your goal (weight loss, muscle gain, family meals) and days needed.",
+    "additional_instructions_placeholder": "Optional: add budget, allergies, calories, and prep time limits."
   },
   {
     "id": "workout-plan-049",
@@ -487,7 +583,9 @@
     "input_format": "Text",
     "output_format": "Checklist",
     "tone": "Motivational and energetic",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Share fitness goal, current level, and days per week.",
+    "additional_instructions_placeholder": "Optional: add equipment available, injuries, and session length."
   },
   {
     "id": "nutrition-plan-050",
@@ -497,7 +595,9 @@
     "input_format": "Text",
     "output_format": "Bullet List",
     "tone": "Motivational and energetic",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Provide health goal, diet preferences, and daily routine.",
+    "additional_instructions_placeholder": "Optional: add calories/macros target, allergies, and foods to avoid."
   },
   {
     "id": "financial-budget-051",
@@ -507,7 +607,9 @@
     "input_format": "Text",
     "output_format": "Markdown Table",
     "tone": "Analytical and data-driven",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Share monthly income, major expenses, and savings goal.",
+    "additional_instructions_placeholder": "Optional: add debt details, timeline, and spending categories to reduce."
   },
   {
     "id": "financial-explain-052",
@@ -517,7 +619,9 @@
     "input_format": "Topic",
     "output_format": "Paragraph",
     "tone": "Clear and explanatory",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Paste the financial topic or term you want explained.",
+    "additional_instructions_placeholder": "Optional: add your experience level and any specific scenario."
   },
   {
     "id": "financial-investment-053",
@@ -527,7 +631,9 @@
     "input_format": "Text",
     "output_format": "Comparison Table",
     "tone": "Neutral and objective",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Share your risk tolerance, time horizon, and goal.",
+    "additional_instructions_placeholder": "Optional: add current portfolio, budget range, and markets of interest."
   },
   {
     "id": "travel-itinerary-054",
@@ -537,7 +643,9 @@
     "input_format": "Text",
     "output_format": "Step-by-Step Instructions",
     "tone": "Enthusiastic and upbeat",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Provide destination, dates, budget, and traveler profile.",
+    "additional_instructions_placeholder": "Optional: add interests, pace (relaxed/busy), and must-visit spots."
   },
   {
     "id": "travel-packing-list-055",
@@ -547,7 +655,9 @@
     "input_format": "Text",
     "output_format": "Checklist",
     "tone": "Instructive and step-by-step",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Share destination, weather, trip length, and trip type.",
+    "additional_instructions_placeholder": "Optional: add airline baggage limits and special gear needs."
   },
   {
     "id": "health-symptom-explainer-056",
@@ -557,7 +667,9 @@
     "input_format": "Text",
     "output_format": "Paragraph",
     "tone": "Empathetic and supportive",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Describe symptoms, duration, and any relevant context.",
+    "additional_instructions_placeholder": "Optional: add age, triggers, and conditions you are worried about."
   },
   {
     "id": "health-patient-communication-057",
@@ -567,7 +679,9 @@
     "input_format": "Text",
     "output_format": "Paragraph",
     "tone": "Empathetic and supportive",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Paste the medical message you need rewritten for a patient.",
+    "additional_instructions_placeholder": "Optional: add patient age/reading level and key reassurance points."
   },
   {
     "id": "real-estate-listing-058",
@@ -577,7 +691,9 @@
     "input_format": "Product Details",
     "output_format": "Product Description",
     "tone": "Persuasive and confident",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Share property type, location, price, and best features.",
+    "additional_instructions_placeholder": "Optional: add recent upgrades, nearby amenities, and ideal buyer profile."
   },
   {
     "id": "real-estate-offer-letter-059",
@@ -587,7 +703,9 @@
     "input_format": "Text",
     "output_format": "Paragraph",
     "tone": "Warm, conversational, and approachable",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Provide property details, offer amount, and your motivation.",
+    "additional_instructions_placeholder": "Optional: add contingencies, timeline, and personal note points."
   },
   {
     "id": "startup-pitch-060",
@@ -597,7 +715,9 @@
     "input_format": "Text",
     "output_format": "Paragraph",
     "tone": "Persuasive and confident",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Describe your product, problem solved, and target users.",
+    "additional_instructions_placeholder": "Optional: add traction, business model, and funding ask."
   },
   {
     "id": "startup-pitch-investor-061",
@@ -607,7 +727,9 @@
     "input_format": "Text",
     "output_format": "Slide Outline",
     "tone": "Persuasive and confident",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Share your company story, traction numbers, and funding goal.",
+    "additional_instructions_placeholder": "Optional: add TAM/SAM/SOM, moat, and use-of-funds breakdown."
   },
   {
     "id": "startup-business-plan-062",
@@ -617,7 +739,9 @@
     "input_format": "Text",
     "output_format": "Executive Summary",
     "tone": "Persuasive and confident",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Provide business idea, audience, and revenue model.",
+    "additional_instructions_placeholder": "Optional: add market data, competitors, and first-year milestones."
   },
   {
     "id": "customer-complaint-063",
@@ -627,7 +751,9 @@
     "input_format": "Text",
     "output_format": "Email",
     "tone": "Empathetic and supportive",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Paste the customer complaint and what resolution you can offer.",
+    "additional_instructions_placeholder": "Optional: add brand voice, refund policy, and response deadline."
   },
   {
     "id": "customer-onboarding-064",
@@ -637,7 +763,9 @@
     "input_format": "Product Details",
     "output_format": "Email",
     "tone": "Warm, conversational, and approachable",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Describe product, user type, and first success milestone.",
+    "additional_instructions_placeholder": "Optional: add timeline, setup steps, and common blockers."
   },
   {
     "id": "legal-terms-summary-065",
@@ -647,7 +775,9 @@
     "input_format": "Text",
     "output_format": "Bullet List",
     "tone": "Clear and explanatory",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Paste the legal text/terms you want simplified.",
+    "additional_instructions_placeholder": "Optional: add audience type and sections to prioritize."
   },
   {
     "id": "legal-nda-066",
@@ -657,7 +787,9 @@
     "input_format": "Text",
     "output_format": "Paragraph",
     "tone": "Formal and structured",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Provide both parties, purpose, and confidentiality scope.",
+    "additional_instructions_placeholder": "Optional: add term length, governing law, and exclusions."
   },
   {
     "id": "performance-review-067",
@@ -667,7 +799,9 @@
     "input_format": "Text",
     "output_format": "Paragraph",
     "tone": "Formal and structured",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Share employee role, wins, and areas to improve.",
+    "additional_instructions_placeholder": "Optional: add examples, goals for next cycle, and review tone."
   },
   {
     "id": "creative-story-068",
@@ -677,7 +811,9 @@
     "input_format": "Topic",
     "output_format": "Paragraph",
     "tone": "Narrative and storytelling",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Give genre, main character, setting, and core conflict.",
+    "additional_instructions_placeholder": "Optional: add word count, ending style, and themes to include."
   },
   {
     "id": "creative-poem-069",
@@ -687,7 +823,9 @@
     "input_format": "Topic",
     "output_format": "Paragraph",
     "tone": "Narrative and storytelling",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Share poem topic, mood, and audience.",
+    "additional_instructions_placeholder": "Optional: add style (free verse/rhyme), length, and imagery requests."
   },
   {
     "id": "research-paper-summary-070",
@@ -697,7 +835,9 @@
     "input_format": "Text",
     "output_format": "Executive Summary",
     "tone": "Precise and technical",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Paste the paper text or key sections (abstract, methods, findings).",
+    "additional_instructions_placeholder": "Optional: add audience type and what to focus on most."
   },
   {
     "id": "case-study-071",
@@ -707,7 +847,9 @@
     "input_format": "Text",
     "output_format": "Case Study Summary",
     "tone": "Analytical and data-driven",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Provide company/situation, challenge, actions taken, and results.",
+    "additional_instructions_placeholder": "Optional: add metrics, timeline, and lesson to emphasize."
   },
   {
     "id": "project-checklist-072",
@@ -717,7 +859,9 @@
     "input_format": "Task Details",
     "output_format": "Checklist",
     "tone": "Concise and direct",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Describe the project goal, scope, and deadline.",
+    "additional_instructions_placeholder": "Optional: add owners, dependencies, and must-not-miss tasks."
   },
   {
     "id": "product-roadmap-073",
@@ -727,7 +871,9 @@
     "input_format": "Text",
     "output_format": "Markdown Table",
     "tone": "Authoritative and professional",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Share product goals, user needs, and current priorities.",
+    "additional_instructions_placeholder": "Optional: add timeframe, team capacity, and success metrics."
   },
   {
     "id": "translate-text-074",
@@ -737,7 +883,9 @@
     "input_format": "Text",
     "output_format": "Paragraph",
     "tone": "Neutral and objective",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Paste the exact text you want translated.",
+    "additional_instructions_placeholder": "Optional: add target language variant, tone, and formality level."
   },
   {
     "id": "email-newsletter-subject-lines-075",
@@ -747,7 +895,9 @@
     "input_format": "Topic",
     "output_format": "Bullet List",
     "tone": "Persuasive and confident",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Share newsletter topic, audience, and core hook.",
+    "additional_instructions_placeholder": "Optional: add brand voice, urgency level, and number of options needed."
   },
   {
     "id": "mental-health-journal-076",
@@ -757,7 +907,9 @@
     "input_format": "Topic",
     "output_format": "Bullet List",
     "tone": "Empathetic and supportive",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Describe how you feel today and what happened.",
+    "additional_instructions_placeholder": "Optional: add what support you need (reflection, coping steps, gratitude prompts)."
   },
   {
     "id": "seo-meta-tags-077",
@@ -767,7 +919,9 @@
     "input_format": "Text",
     "output_format": "Bullet List",
     "tone": "Concise and direct",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Provide page topic, target keyword, and search intent.",
+    "additional_instructions_placeholder": "Optional: add brand name, character limits, and CTA angle."
   },
   {
     "id": "sales-objection-078",
@@ -777,7 +931,9 @@
     "input_format": "Text",
     "output_format": "Paragraph",
     "tone": "Warm, conversational, and approachable",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Share the customer objection and deal context.",
+    "additional_instructions_placeholder": "Optional: add product value points, customer profile, and response tone."
   },
   {
     "id": "prompt-engineer-system-prompt-079",
@@ -787,7 +943,9 @@
     "input_format": "Text",
     "output_format": "Paragraph",
     "tone": "Precise and technical",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Describe your AI task, rules, and expected output clearly.",
+    "additional_instructions_placeholder": "Optional: add guardrails, examples, and failure cases to handle."
   },
   {
     "id": "prompt-engineer-improve-080",
@@ -797,7 +955,9 @@
     "input_format": "Text",
     "output_format": "Paragraph",
     "tone": "Analytical and data-driven",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Paste your current prompt and what is not working.",
+    "additional_instructions_placeholder": "Optional: add target model, desired output format, and constraints."
   },
   {
     "id": "email-general-human-081",
@@ -807,6 +967,8 @@
     "input_format": "Email Context",
     "output_format": "Human Email",
     "tone": "Context-Adaptive Human",
-    "additional_instructions": ""
+    "additional_instructions": "",
+    "input_placeholder": "Share who the email is for, why you are writing, and key points to include.",
+    "additional_instructions_placeholder": "Optional: add tone preference, urgency, and anything to avoid saying."
   }
 ]
